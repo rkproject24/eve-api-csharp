@@ -50,63 +50,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cache.cs" />
     <Compile Include="API\Account\Characters.cs" />
-    <Compile Include="API\API.cs" />
-    <Compile Include="API\Character\AccountBalance.cs" />
-    <Compile Include="API\Character\AssetList.cs" />
-    <Compile Include="API\Character\CharacterSheet.cs" />
-    <Compile Include="API\Character\FacWarStats.cs" />
-    <Compile Include="API\Character\IndustryJobs.cs" />
-    <Compile Include="API\Character\Killlog.cs" />
-    <Compile Include="API\Character\MarketOrders.cs" />
-    <Compile Include="API\Character\Medals.cs" />
-    <Compile Include="API\Character\SkillInTraining.cs" />
-    <Compile Include="API\Character\SkillQueue.cs" />
-    <Compile Include="API\Character\Standings.cs" />
-    <Compile Include="API\Character\WalletJournal.cs" />
-    <Compile Include="API\Character\WalletTransactions.cs" />
-    <Compile Include="API\Corporation\AccountBalance.cs" />
-    <Compile Include="API\Corporation\AssetList.cs" />
-    <Compile Include="API\Corporation\ContainerLog.cs" />
-    <Compile Include="API\Corporation\CorporationSheet.cs" />
-    <Compile Include="API\Corporation\FacWarStats.cs" />
-    <Compile Include="API\Corporation\IndustryJobs.cs" />
-    <Compile Include="API\Corporation\Killlog.cs" />
-    <Compile Include="API\Corporation\MarketOrders.cs" />
-    <Compile Include="API\Corporation\Medals.cs" />
-    <Compile Include="API\Corporation\MemberMedals.cs" />
-    <Compile Include="API\Corporation\MemberSecurity.cs" />
-    <Compile Include="API\Corporation\MemberSecurityLog.cs" />
-    <Compile Include="API\Corporation\MemberTracking.cs" />
-    <Compile Include="API\Corporation\Shareholders.cs" />
-    <Compile Include="API\Corporation\Standings.cs" />
-    <Compile Include="API\Corporation\StarbaseDetail.cs" />
-    <Compile Include="API\Corporation\StarbaseList.cs" />
-    <Compile Include="API\Corporation\Titles.cs" />
-    <Compile Include="API\Corporation\WalletJournal.cs" />
-    <Compile Include="API\Corporation\WalletTransactions.cs" />
-    <Compile Include="API\EVE\AllianceList.cs" />
-    <Compile Include="API\EVE\CertificateTree.cs" />
-    <Compile Include="API\EVE\CharacterID.cs" />
-    <Compile Include="API\EVE\CharacterName.cs" />
-    <Compile Include="API\EVE\ConquerableStationList.cs" />
+    <Compile Include="API\API_Base.cs" />
     <Compile Include="API\EVE\ErrorList.cs" />
-    <Compile Include="API\EVE\FacWarTopStats.cs" />
-    <Compile Include="API\EVE\RefTypes.cs" />
-    <Compile Include="API\EVE\SkillTree.cs" />
-    <Compile Include="API\Map\FacWarSystems.cs" />
-    <Compile Include="API\Map\Jumps.cs" />
-    <Compile Include="API\Map\Kills.cs" />
-    <Compile Include="API\Map\Sovereignty.cs" />
     <Compile Include="API\ServerStatus.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="EVEAPI.cs" />
     <Compile Include="Network.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Roles.cs" />
-    <Compile Include="SerializableDictionary.cs" />
     <Compile Include="TimeUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="API\Character\" />
+    <Folder Include="API\Corporation\" />
+    <Folder Include="API\Map\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -133,6 +133,10 @@ namespace EVE_API
         /// </summary>
         public static readonly string SkillTree = "/eve/SkillTree.xml.aspx";
         /// <summary>
+        /// The latest version of the Official EVE API
+        /// </summary>
+        public static readonly string APIVersion = "?version=2";
+        /// <summary>
         /// The FULL PATH to the image generator
         /// </summary>
         public static readonly string ImageFullURL = "http://img.eve.is/serv.asp";

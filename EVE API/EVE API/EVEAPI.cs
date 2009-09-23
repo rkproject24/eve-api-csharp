@@ -76,19 +76,9 @@ namespace EVE_API
         {
             string url = String.Format("{0}{1}?userID={2}&apiKey={3}", Constants.ApiPrefix, Constants.CharacterList, userId, apiKey);
 
-            API_Base cachedResponse = Cache.Get(url, ignoreCacheUntil);
-            if (cachedResponse != null)
-            {
-                return cachedResponse as API.Account.Characters;
-            }
-
-            XmlDocument xmlDoc = Network.GetXml(url);
-            API.Account.Characters characterList = API.Account.Characters.FromXmlDocument(xmlDoc);
-            Cache.Set(url, characterList);
-
-            return characterList;
+            return;
         }
-
+        /*
         /// <summary>
         /// Returns the ISK balance of a corporation or character
         /// </summary>
@@ -287,7 +277,7 @@ namespace EVE_API
 
             return starbaseDetail;
         }
-
+        */
         /// <summary>
         /// Returns a list of error codes that can be returned by the EVE API servers
         /// </summary>
@@ -304,21 +294,11 @@ namespace EVE_API
         /// <returns></returns>
         public static ErrorList GetErrorList(bool ignoreCacheUntil)
         {
-            string url = String.Format("{0}{1}?version=2", Constants.ApiPrefix, Constants.ErrorList);
+            string url = String.Format("{0}{1}", Constants.ApiPrefix, Constants.ErrorList);
 
-            API_Base cachedResponse = Cache.Get(url, ignoreCacheUntil);
-            if (cachedResponse != null)
-            {
-                return cachedResponse as ErrorList;
-            }
-
-            XmlDocument xmlDoc = Network.GetXml(url);
-            ErrorList errorList = ErrorList.FromXmlDocument(xmlDoc);
-            Cache.Set(url, errorList);
-
-            return errorList;
+            return;
         }
-
+        /*
         /// <summary>
         /// Returns a list of assets owned by a character or corporation.
         /// </summary>
@@ -1137,8 +1117,9 @@ namespace EVE_API
             string url = String.Format("{0}?c={1}&s={2}", Constants.ImageFullURL, characterId.ToString(), imageSize.ToString());
             return Network.GetImage(url);
         }
+         */
     }
-
+         
     /// <summary>
     /// Raised when an error reponse is received from an eve api request
     /// </summary>
