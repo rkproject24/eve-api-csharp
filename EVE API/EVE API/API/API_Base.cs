@@ -41,19 +41,6 @@ namespace EVE_API.API
         public DateTime CachedUntil { get; set; }
 
         /// <summary>
-        /// This is the current time on the local machine.
-        /// </summary>
-        [XmlElement]
-        public DateTime CurrentTimeLocal { get; set; }
-
-        /// <summary>
-        /// This is what time the file should be cached to according to the local
-        /// clock.  A timespan is created from the eve time, and added to CurrentTimeLocal
-        /// </summary>
-        [XmlElement]
-        public DateTime CachedUntilLocal { get; set; }
-
-        /// <summary>
         /// The raw xml response from the api
         /// </summary>
         [XmlElement]
@@ -77,12 +64,6 @@ namespace EVE_API.API
             this.ResponseXml = xmlDoc;
             string currentTimeCCPString = xmlDoc.SelectSingleNode("/eveapi/currentTime").InnerText;
             string cachedUntilCCPString = xmlDoc.SelectSingleNode("/eveapi/cachedUntil").InnerText;
-
-            this.CurrentTime = TimeUtility.ConvertCCPTimeStringToDateTimeUTC(currentTimeCCPString);
-            this.CachedUntil = TimeUtility.ConvertCCPTimeStringToDateTimeUTC(cachedUntilCCPString);
-
-            this.CurrentTimeLocal = TimeUtility.ConvertCCPToLocalTime(this.CurrentTime);
-            this.CachedUntilLocal = TimeUtility.ConvertCCPToLocalTime(this.CachedUntil);
 
             XmlNodeList errors = xmlDoc.GetElementsByTagName("error");
             if (errors.Count > 0)
