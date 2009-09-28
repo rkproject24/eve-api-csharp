@@ -5,6 +5,12 @@ using System.IO;
 using System.Text;
 using System.Drawing;
 using System.Xml;
+using System.Xml.Serialization;
+using EVE_API.API;
+using EVE_API.API.EVE;
+using EVE_API.API.Account;
+using Microsoft.Practices.EnterpriseLibrary.Caching;
+using Microsoft.Practices.EnterpriseLibrary.Caching.Expirations;
 
 namespace EVE_API
 {
@@ -16,40 +22,99 @@ namespace EVE_API
         /// </summary>
         /// <param name="url">The url of the XML file to retrieve</param>
         /// <returns></returns>
-        public static XmlDocument GetXml(string url)
+        public static API_Base GetResponse(string url)
         {
-            Stream s = openUrl(url);
-            XmlDocument xmlDoc = new XmlDocument();
-            xmlDoc.Load(s);
-            return xmlDoc;
+            API_Base data = null;
+
+            data = getCache(url);
+            if (data == null)
+            {
+                data = getEVE(url);
+
+                saveCache(url, data);
+
+                return data;
+            }
+            else
+            {
+                if (data.CachedUntil < DateTime.UtcNow)
+                {
+                    data = getEVE(url);
+
+                    saveCache(url, data);
+                }
+
+                return data;
+            }
         }
 
-        /// <summary>
-        /// This function takes in a url of an image and then returns the image
-        /// </summary>
-        /// <param name="url">The url of the image file to retrieve</param>
-        /// <returns>An image object containing the image from the url</returns>
-        public static Image GetImage(string url)
+        private static API_Base getCache(string url)
         {
-            Stream s = openUrl(url);
-            return Image.FromStream(s, true, true);
+            ICacheManager cache = CacheFactory.GetCacheManager();
+
+            if (url.Contains(Constants.ServerStatus))
+                return (ServerStatus)cache.GetData(url);
+            else if (url.Contains(Constants.ErrorList))
+                return (ErrorList)cache.GetData(url);
+            else
+                return (Characters)cache.GetData(url);
         }
 
-        /// <summary>
-        /// This function takes in a url and will return a stream of data from that url
-        /// Also takes into account the user-agent settings and any proxy settings
-        /// </summary>
-        /// <param name="url">The url of the image file to retrieve</param>
-        /// <returns>A stream of data</returns>
-        private static Stream openUrl(string url)
+        private static API_Base getEVE(string url)
         {
             WebClient wc = new WebClient();
+            Stream stream = null;
+            String data = null;
             wc.Headers.Add("user-agent", Network.eveNetworkClientSettings.userAgent);
             if (Network.eveNetworkClientSettings.proxy != null)
             {
                 wc.Proxy = Network.eveNetworkClientSettings.proxy;
             }
-            return wc.OpenRead(url);
+
+            try
+            {
+                if(url.Contains(Constants.ServerStatus))
+                    data = wc.DownloadString(url);
+                else if(url.Contains(Constants.ErrorList))
+                    data = wc.DownloadString(url);
+                else
+                    data = wc.DownloadString(url);
+            }
+            catch (WebException e)
+            {
+                throw new WebException(e.ToString());
+            }
+            finally
+            {
+                stream.Close();
+            }
+
+            if (stream != null)
+                return null;
+                // figure out what xml was returned and return that, else return an image
+
+            if (url.Contains(Constants.ServerStatus))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(ServerStatus));
+                return serializer.Deserialize(new StringReader(data)) as ServerStatus;
+            }
+            else if (url.Contains(Constants.ErrorList))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(ErrorList));
+                return serializer.Deserialize(new StringReader(data)) as ErrorList;
+            }
+            else
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(Characters));
+                return serializer.Deserialize(new StringReader(data)) as Characters;
+            }
+        }
+
+        private static void saveCache(string url, API_Base data)
+        {
+            ICacheManager cache = CacheFactory.GetCacheManager();
+
+            cache.Add(url, data, CacheItemPriority.NotRemovable, null, null);
         }
 
         /// <summary>

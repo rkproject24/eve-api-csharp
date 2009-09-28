@@ -5,6 +5,8 @@ using System.Text;
 using System.Net;
 using System.Xml;
 using EVE_API.API;
+using EVE_API.API.Account;
+using EVE_API.API.EVE;
 
 namespace EVE_API
 {
@@ -60,7 +62,7 @@ namespace EVE_API
         /// <param name="userId">userId of the account for authentication</param>
         /// <param name="apiKey">limited or full access api key of account</param>
         /// <returns></returns>
-        public static CharacterList GetAccountCharacters(int userId, string apiKey)
+        public static Characters GetAccountCharacters(int userId, string apiKey)
         {
             return GetAccountCharacters(userId, apiKey, false);
         }
@@ -72,11 +74,11 @@ namespace EVE_API
         /// <param name="apiKey">limited or full access api key of account</param>
         /// <param name="ignoreCacheUntil">Ignores the cacheUntil and will return the cache even if expired</param>
         /// <returns></returns>
-        public static CharacterList GetAccountCharacters(int userId, string apiKey, bool ignoreCacheUntil)
+        public static Characters GetAccountCharacters(int userId, string apiKey, bool ignoreCacheUntil)
         {
             string url = String.Format("{0}{1}?userID={2}&apiKey={3}", Constants.ApiPrefix, Constants.CharacterList, userId, apiKey);
 
-            return;
+            return Network.GetResponse(url);
         }
         /*
         /// <summary>
@@ -296,7 +298,7 @@ namespace EVE_API
         {
             string url = String.Format("{0}{1}", Constants.ApiPrefix, Constants.ErrorList);
 
-            return;
+            return Network.GetResponse(url);
         }
         /*
         /// <summary>
@@ -1121,7 +1123,7 @@ namespace EVE_API
     }
          
     /// <summary>
-    /// Raised when an error reponse is received from an eve api request
+    /// Raised when an error response is received from an eve api request
     /// </summary>
     public class ApiResponseErrorException : Exception
     {
