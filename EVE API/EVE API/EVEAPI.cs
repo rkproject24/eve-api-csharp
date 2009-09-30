@@ -4,9 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Net;
 using System.Xml;
-using EVE_API.API;
-using EVE_API.API.Account;
-using EVE_API.API.EVE;
 
 namespace EVE_API
 {
@@ -56,6 +53,14 @@ namespace EVE_API
             Network.eveNetworkClientSettings.userAgent = "EveApi/1 (" + userAgent + ")";
         }
 
+        public static ServerStatus GetServerStatus()
+        {
+            string url = String.Format("{0}{1}", Constants.ApiPrefix, Constants.ServerStatus);
+
+            return (ServerStatus)Network.GetResponse(url);
+        }
+
+        /*
         /// <summary>
         /// Returns a list of all characters on an account
         /// </summary>
@@ -78,9 +83,9 @@ namespace EVE_API
         {
             string url = String.Format("{0}{1}?userID={2}&apiKey={3}", Constants.ApiPrefix, Constants.CharacterList, userId, apiKey);
 
-            return Network.GetResponse(url);
+            return;
         }
-        /*
+        
         /// <summary>
         /// Returns the ISK balance of a corporation or character
         /// </summary>
@@ -279,7 +284,7 @@ namespace EVE_API
 
             return starbaseDetail;
         }
-        */
+        
         /// <summary>
         /// Returns a list of error codes that can be returned by the EVE API servers
         /// </summary>
@@ -300,7 +305,7 @@ namespace EVE_API
 
             return Network.GetResponse(url);
         }
-        /*
+        
         /// <summary>
         /// Returns a list of assets owned by a character or corporation.
         /// </summary>
@@ -1130,17 +1135,16 @@ namespace EVE_API
         /// <summary>
         /// The error code
         /// </summary>
-        public string Code;
+        public Error error;
 
         /// <summary>
         /// Sets the current error code to the code recieved
         /// </summary>
         /// <param name="code"></param>
         /// <param name="message"></param>
-        public ApiResponseErrorException(string code, string message)
-            : base(message)
+        public ApiResponseErrorException(Error error)
         {
-            this.Code = code;
+            this.error = error;
         }
     }
 

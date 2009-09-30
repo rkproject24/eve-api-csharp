@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Xml;
+﻿using System.Xml;
 using System.Xml.Serialization;
 
 namespace EVE_API
 {
-    [XmlRoot("eveapi")]
-    public class ServerStatus
+    public class Error
     {
         private string currentTimeField;
 
         private string cachedUntilField;
 
-        private eveapiResult[] resultField;
+        private eveapiError[] errorField;
 
         private string versionField;
 
@@ -47,16 +42,16 @@ namespace EVE_API
         }
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("result", Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public eveapiResult[] result
+        [System.Xml.Serialization.XmlElementAttribute("error", Form = System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable = true)]
+        public eveapiError[] error
         {
             get
             {
-                return this.resultField;
+                return this.errorField;
             }
             set
             {
-                this.resultField = value;
+                this.errorField = value;
             }
         }
 
@@ -74,46 +69,41 @@ namespace EVE_API
             }
         }
 
-        /// <remarks/>
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "2.0.50727.3038")]
-        [System.SerializableAttribute()]
-        [System.Diagnostics.DebuggerStepThroughAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class eveapiResult
+        public class eveapiError
         {
 
-            private string serverOpenField;
+            private string codeField;
 
-            private string onlinePlayersField;
+            private string valueField;
 
             /// <remarks/>
-            [System.Xml.Serialization.XmlElementAttribute(Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
-            public string serverOpen
+            [System.Xml.Serialization.XmlAttributeAttribute()]
+            public string code
             {
                 get
                 {
-                    return this.serverOpenField;
+                    return this.codeField;
                 }
                 set
                 {
-                    this.serverOpenField = value;
+                    this.codeField = value;
                 }
             }
 
             /// <remarks/>
-            [System.Xml.Serialization.XmlElementAttribute(Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
-            public string onlinePlayers
+            [System.Xml.Serialization.XmlTextAttribute()]
+            public string Value
             {
                 get
                 {
-                    return this.onlinePlayersField;
+                    return this.valueField;
                 }
                 set
                 {
-                    this.onlinePlayersField = value;
+                    this.valueField = value;
                 }
             }
+
         }
     }
 }

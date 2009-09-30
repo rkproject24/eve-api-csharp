@@ -4,11 +4,9 @@ using System.Net;
 using System.IO;
 using System.Text;
 using System.Drawing;
+using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Serialization;
-using EVE_API.API;
-using EVE_API.API.EVE;
-using EVE_API.API.Account;
 using Microsoft.Practices.EnterpriseLibrary.Caching;
 using Microsoft.Practices.EnterpriseLibrary.Caching.Expirations;
 
@@ -22,45 +20,73 @@ namespace EVE_API
         /// </summary>
         /// <param name="url">The url of the XML file to retrieve</param>
         /// <returns></returns>
-        public static API_Base GetResponse(string url)
+        public static Object GetResponse(string url)
         {
-            API_Base data = null;
+            string data = null;
 
             data = getCache(url);
-            if (data == null)
+            if (data == null) // Cache is empty, try to pull from EVE and store info in it
             {
                 data = getEVE(url);
 
                 saveCache(url, data);
-
-                return data;
             }
-            else
+            else // Cache was not empty, is it old data? If so, try to pull from EVE
             {
-                if (data.CachedUntil < DateTime.UtcNow)
+                // Perform a regular expression on the string. If Cache Until is earlier than now
+                // , pull from EVE (insert a try, catch so that if it fails you still used the currently cached data)
+                // and save. If Cache Until is later than now, serve it up.
+                Regex exp = new Regex("<cachedUntil>|</cachedUntil>");
+                string[] cachedUntilstring = exp.Split(data);
+
+                DateTime cachedUntil = DateTime.Parse(cachedUntilstring[1]);
+                cachedUntil = DateTime.SpecifyKind(cachedUntil, DateTimeKind.Utc);
+                DateTime utcNow = DateTime.UtcNow;
+                int result = DateTime.Compare(cachedUntil, utcNow);
+
+                // Old Cache, fetch new data if possible
+                if (result < 0 || result == 0)
                 {
-                    data = getEVE(url);
-
-                    saveCache(url, data);
+                    string tempData = data;
+                    try
+                    {
+                        data = getEVE(url);
+                        saveCache(url, data);
+                    }
+                    catch (WebException)
+                    {
+                        data = tempData;
+                    }
+                    catch (ApiResponseErrorException)
+                    {
+                        data = tempData;
+                    }
                 }
-
-                return data;
+                // Cache must still be used, serve it up!
             }
+
+            if (url.Contains(Constants.ErrorList))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(ErrorList));
+                return serializer.Deserialize(new StringReader(data)) as ErrorList;
+            }
+            else if (url.Contains(Constants.ServerStatus))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(ServerStatus));
+                return serializer.Deserialize(new StringReader(data)) as ServerStatus;
+            }
+
+            return data;
         }
 
-        private static API_Base getCache(string url)
+        private static string getCache(string url)
         {
             ICacheManager cache = CacheFactory.GetCacheManager();
 
-            if (url.Contains(Constants.ServerStatus))
-                return (ServerStatus)cache.GetData(url);
-            else if (url.Contains(Constants.ErrorList))
-                return (ErrorList)cache.GetData(url);
-            else
-                return (Characters)cache.GetData(url);
+            return (string)cache.GetData(url);
         }
 
-        private static API_Base getEVE(string url)
+        private static string getEVE(string url)
         {
             WebClient wc = new WebClient();
             Stream stream = null;
@@ -73,10 +99,8 @@ namespace EVE_API
 
             try
             {
-                if(url.Contains(Constants.ServerStatus))
-                    data = wc.DownloadString(url);
-                else if(url.Contains(Constants.ErrorList))
-                    data = wc.DownloadString(url);
+                if(url.Contains(Constants.ImageFullURL))
+                    stream = wc.OpenRead(url);
                 else
                     data = wc.DownloadString(url);
             }
@@ -86,31 +110,26 @@ namespace EVE_API
             }
             finally
             {
-                stream.Close();
+                if(stream != null)
+                    stream.Close();
             }
 
             if (stream != null)
                 return null;
                 // figure out what xml was returned and return that, else return an image
-
-            if (url.Contains(Constants.ServerStatus))
+            if (data.Contains("<error code=") && !url.Contains(Constants.ErrorList))
             {
-                XmlSerializer serializer = new XmlSerializer(typeof(ServerStatus));
-                return serializer.Deserialize(new StringReader(data)) as ServerStatus;
-            }
-            else if (url.Contains(Constants.ErrorList))
-            {
-                XmlSerializer serializer = new XmlSerializer(typeof(ErrorList));
-                return serializer.Deserialize(new StringReader(data)) as ErrorList;
+                // Returned an error and was not the error list, throw exception with error
+                XmlSerializer serializer = new XmlSerializer(typeof(Error));
+                throw new ApiResponseErrorException(serializer.Deserialize(new StringReader(data)) as Error);
             }
             else
             {
-                XmlSerializer serializer = new XmlSerializer(typeof(Characters));
-                return serializer.Deserialize(new StringReader(data)) as Characters;
+                return data;
             }
         }
 
-        private static void saveCache(string url, API_Base data)
+        private static void saveCache(string url, string data)
         {
             ICacheManager cache = CacheFactory.GetCacheManager();
 
