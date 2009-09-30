@@ -14,7 +14,7 @@ namespace EVE_API
 
         private string cachedUntilField;
 
-        private eveapiResult[] resultField;
+        private eveapiResult resultField;
 
         private string versionField;
 
@@ -48,7 +48,7 @@ namespace EVE_API
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("result", Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public eveapiResult[] result
+        public eveapiResult result
         {
             get
             {
