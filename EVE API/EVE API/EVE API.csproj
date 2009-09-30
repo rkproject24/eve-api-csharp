@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API\Account\Characters.cs" />
-    <Compile Include="API\API_Base.cs" />
+    <Compile Include="API\EVE\Error.cs" />
     <Compile Include="API\EVE\ErrorList.cs" />
     <Compile Include="API\ServerStatus.cs" />
     <Compile Include="Constants.cs" />
