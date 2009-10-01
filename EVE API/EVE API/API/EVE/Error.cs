@@ -3,6 +3,7 @@ using System.Xml.Serialization;
 
 namespace EVE_API
 {
+    [XmlRoot("eveapi")]
     public class Error
     {
         private string currentTimeField;
