@@ -1,11 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Xml;
+using System.Xml.Serialization;
 
-namespace EVE_API.API.Map
+namespace EVE_API
 {
-    class Jumps : API_Base
+    [XmlRoot("eveapi")]
+    public class Jumps
     {
+
     }
 }
