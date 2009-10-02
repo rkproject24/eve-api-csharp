@@ -1,6 +1,8 @@
 <eveapi version="2">
-<currentTime>2009-10-01 02:51:51</currentTime>
+<currentTime>2009-09-30 20:14:30</currentTime>
+-
 <result>
+-
 <rowset name="errors" key="errorCode" columns="errorCode,errorText">
 <row errorCode="100" errorText="Expected before ref/trans ID = 0: wallet not previously loaded."/>
 <row errorCode="101" errorText="Wallet exhausted: retry after {0}."/>
@@ -71,5 +73,5 @@
 <row errorCode="999" errorText="User forced test error condition."/>
 </rowset>
 </result>
-<cachedUntil>2009-10-01 03:51:51</cachedUntil>
+<cachedUntil>2009-09-30 21:14:30</cachedUntil>
 </eveapi>

@@ -1,8 +1,9 @@
 <eveapi version="2">
-<currentTime>2009-10-01 02:50:51</currentTime>
+<currentTime>2009-09-30 19:50:07</currentTime>
+-
 <result>
 <serverOpen>True</serverOpen>
-<onlinePlayers>28037</onlinePlayers>
+<onlinePlayers>40830</onlinePlayers>
 </result>
-<cachedUntil>2009-10-01 02:53:51</cachedUntil>
+<cachedUntil>2009-09-30 19:53:07</cachedUntil>
 </eveapi>

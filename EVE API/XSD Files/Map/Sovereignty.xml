@@ -1,6 +1,8 @@
 <eveapi version="2">
-<currentTime>2009-10-01 02:54:40</currentTime>
+<currentTime>2009-10-01 16:14:22</currentTime>
+-
 <result>
+-
 <rowset name="solarSystems" key="solarSystemID" columns="solarSystemID,allianceID,constellationSovereignty,sovereigntyLevel,factionID,solarSystemName">
 <row solarSystemID="30000001" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="500007" solarSystemName="Tanoo"/>
 <row solarSystemID="30000002" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="500007" solarSystemName="Lashesih"/>
@@ -281,7 +283,7 @@
 <row solarSystemID="30000277" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="IR-DYY"/>
 <row solarSystemID="30000278" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="C-DHON"/>
 <row solarSystemID="30000279" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="F-D49D"/>
-<row solarSystemID="30000280" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="MQ-O27"/>
+<row solarSystemID="30000280" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="MQ-O27"/>
 <row solarSystemID="30000281" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="H-EY0P"/>
 <row solarSystemID="30000282" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="UNAG-6"/>
 <row solarSystemID="30000283" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="E-SCTX"/>
@@ -296,7 +298,7 @@
 <row solarSystemID="30000292" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="2DWM-2"/>
 <row solarSystemID="30000293" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="XF-PWO"/>
 <row solarSystemID="30000294" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="1N-FJ8"/>
-<row solarSystemID="30000295" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="VI2K-J"/>
+<row solarSystemID="30000295" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="VI2K-J"/>
 <row solarSystemID="30000296" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="ZLZ-1Z"/>
 <row solarSystemID="30000297" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="6Y-WRK"/>
 <row solarSystemID="30000298" allianceID="1448299113" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="RVCZ-C"/>
@@ -449,7 +451,7 @@
 <row solarSystemID="30000854" allianceID="628991027" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="B-S42H"/>
 <row solarSystemID="30000855" allianceID="741557221" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="NL6V-7"/>
 <row solarSystemID="30000856" allianceID="628991027" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="F-749O"/>
-<row solarSystemID="30000857" allianceID="386292982" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="0-YMBJ"/>
+<row solarSystemID="30000857" allianceID="628991027" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="0-YMBJ"/>
 <row solarSystemID="30000858" allianceID="628991027" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="UMI-KK"/>
 <row solarSystemID="30000859" allianceID="628991027" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="GKP-YT"/>
 <row solarSystemID="30000860" allianceID="628991027" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="AW1-2I"/>
@@ -850,7 +852,7 @@
 <row solarSystemID="30001255" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="Y-PNRL"/>
 <row solarSystemID="30001256" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="FAT-6P"/>
 <row solarSystemID="30001257" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="6BPS-T"/>
-<row solarSystemID="30001258" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="25S-6P"/>
+<row solarSystemID="30001258" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="25S-6P"/>
 <row solarSystemID="30001259" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="RR-D05"/>
 <row solarSystemID="30001260" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="4-07MU"/>
 <row solarSystemID="30001261" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="500010" solarSystemName="Y-W1Q3"/>
@@ -1347,10 +1349,10 @@
 <row solarSystemID="30001752" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="I-HRX3"/>
 <row solarSystemID="30001753" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="XUPK-Z"/>
 <row solarSystemID="30001754" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="M4U-EH"/>
-<row solarSystemID="30001755" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="WK2F-Y"/>
-<row solarSystemID="30001756" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="WIO-OL"/>
-<row solarSystemID="30001757" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="1-10QG"/>
-<row solarSystemID="30001758" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="YQM-P1"/>
+<row solarSystemID="30001755" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="WK2F-Y"/>
+<row solarSystemID="30001756" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="WIO-OL"/>
+<row solarSystemID="30001757" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="1-10QG"/>
+<row solarSystemID="30001758" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="YQM-P1"/>
 <row solarSystemID="30001759" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="6-GRN7"/>
 <row solarSystemID="30001760" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="TFPT-U"/>
 <row solarSystemID="30001761" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="D-JVGJ"/>
@@ -1590,7 +1592,7 @@
 <row solarSystemID="30001995" allianceID="628991027" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="M-76XI"/>
 <row solarSystemID="30001996" allianceID="628991027" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="ZJET-E"/>
 <row solarSystemID="30001997" allianceID="628991027" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="U-INPD"/>
-<row solarSystemID="30001998" allianceID="1593530236" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="WW-KGD"/>
+<row solarSystemID="30001998" allianceID="1593530236" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="WW-KGD"/>
 <row solarSystemID="30001999" allianceID="1593530236" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="XQ-PXU"/>
 <row solarSystemID="30002000" allianceID="1593530236" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="M-YCD4"/>
 <row solarSystemID="30002001" allianceID="1593530236" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="Q-5211"/>
@@ -1610,7 +1612,7 @@
 <row solarSystemID="30002015" allianceID="166439722" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="4-ABS8"/>
 <row solarSystemID="30002016" allianceID="204800686" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="7RM-N0"/>
 <row solarSystemID="30002017" allianceID="204800686" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="S-MDYI"/>
-<row solarSystemID="30002018" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="ZKYV-W"/>
+<row solarSystemID="30002018" allianceID="204800686" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="ZKYV-W"/>
 <row solarSystemID="30002019" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="F-NMX6"/>
 <row solarSystemID="30002020" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="GA-P6C"/>
 <row solarSystemID="30002021" allianceID="204800686" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="FWA-4V"/>
@@ -2098,7 +2100,7 @@
 <row solarSystemID="30002911" allianceID="166439722" constellationSovereignty="166439722" sovereigntyLevel="3" factionID="0" solarSystemName="JU-OWQ"/>
 <row solarSystemID="30002912" allianceID="166439722" constellationSovereignty="166439722" sovereigntyLevel="4" factionID="0" solarSystemName="S-DN5M"/>
 <row solarSystemID="30002913" allianceID="166439722" constellationSovereignty="166439722" sovereigntyLevel="2" factionID="0" solarSystemName="MXX5-9"/>
-<row solarSystemID="30002914" allianceID="166439722" constellationSovereignty="166439722" sovereigntyLevel="2" factionID="0" solarSystemName="ZZZR-5"/>
+<row solarSystemID="30002914" allianceID="166439722" constellationSovereignty="166439722" sovereigntyLevel="3" factionID="0" solarSystemName="ZZZR-5"/>
 <row solarSystemID="30002915" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="C7Y-7Z"/>
 <row solarSystemID="30002916" allianceID="166439722" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="X-Z4DA"/>
 <row solarSystemID="30002917" allianceID="166439722" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="3OAT-Q"/>
@@ -3360,7 +3362,7 @@
 <row solarSystemID="30000550" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="C-62I5"/>
 <row solarSystemID="30000551" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="ZH-GKG"/>
 <row solarSystemID="30000552" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="GPLB-C"/>
-<row solarSystemID="30000553" allianceID="933731581" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="GGE-5Q"/>
+<row solarSystemID="30000553" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="GGE-5Q"/>
 <row solarSystemID="30000554" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="5E-CMA"/>
 <row solarSystemID="30000555" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="U104-3"/>
 <row solarSystemID="30000556" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="M3-KAQ"/>
@@ -3479,7 +3481,7 @@
 <row solarSystemID="30000669" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="N3-JBX"/>
 <row solarSystemID="30000670" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="SG-75T"/>
 <row solarSystemID="30000671" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="GN-PDU"/>
-<row solarSystemID="30000672" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="AZ3F-N"/>
+<row solarSystemID="30000672" allianceID="1900696668" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="AZ3F-N"/>
 <row solarSystemID="30000673" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="RNM-Y6"/>
 <row solarSystemID="30000674" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="V-KDY2"/>
 <row solarSystemID="30000675" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="FYD-TO"/>
@@ -3487,8 +3489,8 @@
 <row solarSystemID="30000677" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="J2-PZ6"/>
 <row solarSystemID="30000678" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="XV-MWG"/>
 <row solarSystemID="30000679" allianceID="1855936662" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="OAQY-M"/>
-<row solarSystemID="30000680" allianceID="1411711376" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="1V-LI2"/>
-<row solarSystemID="30000681" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="M9-MLR"/>
+<row solarSystemID="30000680" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="1V-LI2"/>
+<row solarSystemID="30000681" allianceID="1220922756" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="M9-MLR"/>
 <row solarSystemID="30000682" allianceID="1411711376" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="Q-K2T7"/>
 <row solarSystemID="30000683" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="LBC-AW"/>
 <row solarSystemID="30000684" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="2-KPW6"/>
@@ -3536,7 +3538,7 @@
 <row solarSystemID="30000726" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="71-UTX"/>
 <row solarSystemID="30000727" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="PU-UMM"/>
 <row solarSystemID="30000728" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="6-KPAB"/>
-<row solarSystemID="30000729" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="Y5-E1U"/>
+<row solarSystemID="30000729" allianceID="1900696668" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="Y5-E1U"/>
 <row solarSystemID="30000730" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="4-43BW"/>
 <row solarSystemID="30000731" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="8CN-CH"/>
 <row solarSystemID="30000732" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="V-F6DQ"/>
@@ -3582,7 +3584,7 @@
 <row solarSystemID="30000772" allianceID="1220922756" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="C-J6MT"/>
 <row solarSystemID="30000773" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="78-0R6"/>
 <row solarSystemID="30000774" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="MSG-BZ"/>
-<row solarSystemID="30000775" allianceID="741557221" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="8-WYQZ"/>
+<row solarSystemID="30000775" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="8-WYQZ"/>
 <row solarSystemID="30000776" allianceID="1220922756" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="4M-QXK"/>
 <row solarSystemID="30000777" allianceID="1220922756" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="X5-0EM"/>
 <row solarSystemID="30000778" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="G-EURJ"/>
@@ -3623,7 +3625,7 @@
 <row solarSystemID="30000813" allianceID="1220922756" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="LVL-GZ"/>
 <row solarSystemID="30000814" allianceID="1028876240" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="EJ48-O"/>
 <row solarSystemID="30000815" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="ROJ-B0"/>
-<row solarSystemID="30000816" allianceID="284278305" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="DFH-V5"/>
+<row solarSystemID="30000816" allianceID="1220922756" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="DFH-V5"/>
 <row solarSystemID="30000817" allianceID="574100976" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="B-II34"/>
 <row solarSystemID="30000818" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="4LB-EL"/>
 <row solarSystemID="30000819" allianceID="1220922756" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="UDE-FX"/>
@@ -3698,7 +3700,7 @@
 <row solarSystemID="30002116" allianceID="1900696668" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="O7-7UX"/>
 <row solarSystemID="30002117" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="Z8-81T"/>
 <row solarSystemID="30002118" allianceID="1900696668" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="XD-JW7"/>
-<row solarSystemID="30002119" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="DY-P7Q"/>
+<row solarSystemID="30002119" allianceID="664570058" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="DY-P7Q"/>
 <row solarSystemID="30002120" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="H-RXNZ"/>
 <row solarSystemID="30002121" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="ZBP-TP"/>
 <row solarSystemID="30002122" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="XVV-21"/>
@@ -3891,7 +3893,7 @@
 <row solarSystemID="30002309" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="N06Z-Q"/>
 <row solarSystemID="30002310" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="YX-0KH"/>
 <row solarSystemID="30002311" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="KMH-J1"/>
-<row solarSystemID="30002312" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="CYB-BZ"/>
+<row solarSystemID="30002312" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="CYB-BZ"/>
 <row solarSystemID="30002313" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="5U-3PW"/>
 <row solarSystemID="30002314" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="89JS-J"/>
 <row solarSystemID="30002315" allianceID="1411711376" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="C9R-NO"/>
@@ -3936,7 +3938,7 @@
 <row solarSystemID="30002354" allianceID="1208295500" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="8KE-YS"/>
 <row solarSystemID="30002355" allianceID="1411711376" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="LXQ2-T"/>
 <row solarSystemID="30002356" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="HV-EAP"/>
-<row solarSystemID="30002357" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="3IK-7O"/>
+<row solarSystemID="30002357" allianceID="477769446" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="3IK-7O"/>
 <row solarSystemID="30002358" allianceID="1220922756" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="O-EUHA"/>
 <row solarSystemID="30002359" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="MO-I1W"/>
 <row solarSystemID="30002360" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="ZZ5X-M"/>
@@ -4045,7 +4047,7 @@
 <row solarSystemID="30003684" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="L-SCBU"/>
 <row solarSystemID="30003685" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="VRH-H7"/>
 <row solarSystemID="30003686" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="O1Y-ED"/>
-<row solarSystemID="30003687" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="K4YZ-Y"/>
+<row solarSystemID="30003687" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="K4YZ-Y"/>
 <row solarSystemID="30003688" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="X36Y-G"/>
 <row solarSystemID="30003689" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="L-C3O7"/>
 <row solarSystemID="30003690" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="YKSC-A"/>
@@ -4402,7 +4404,7 @@
 <row solarSystemID="30004041" allianceID="386292982" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="QXW-PV"/>
 <row solarSystemID="30004042" allianceID="1645202949" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="DY-F70"/>
 <row solarSystemID="30004043" allianceID="1645202949" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="FD53-H"/>
-<row solarSystemID="30004044" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="O-ZXUV"/>
+<row solarSystemID="30004044" allianceID="166439722" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="O-ZXUV"/>
 <row solarSystemID="30004045" allianceID="264679431" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="77-KDQ"/>
 <row solarSystemID="30004046" allianceID="386292982" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="F7C-H0"/>
 <row solarSystemID="30004047" allianceID="386292982" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="TN-T7T"/>
@@ -4427,7 +4429,7 @@
 <row solarSystemID="30004066" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="QA1-BT"/>
 <row solarSystemID="30004067" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="5S-KNL"/>
 <row solarSystemID="30004068" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="00TY-J"/>
-<row solarSystemID="30004069" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="XG-D1L"/>
+<row solarSystemID="30004069" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="XG-D1L"/>
 <row solarSystemID="30004070" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="6RCQ-V"/>
 <row solarSystemID="30004071" allianceID="1645202949" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="28O-JY"/>
 <row solarSystemID="30004072" allianceID="1733643802" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="CX7-70"/>
@@ -5700,7 +5702,7 @@
 <row solarSystemID="30004866" allianceID="284278305" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="NR8S-Y"/>
 <row solarSystemID="30004867" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="F-ZBO0"/>
 <row solarSystemID="30004868" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="3Q1T-O"/>
-<row solarSystemID="30004869" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="8-4KME"/>
+<row solarSystemID="30004869" allianceID="288377808" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="8-4KME"/>
 <row solarSystemID="30004870" allianceID="1228472388" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="T6GY-Y"/>
 <row solarSystemID="30004871" allianceID="284278305" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="R1-IMO"/>
 <row solarSystemID="30004872" allianceID="288377808" constellationSovereignty="288377808" sovereigntyLevel="3" factionID="0" solarSystemName="7KIK-H"/>
@@ -5939,7 +5941,7 @@
 <row solarSystemID="30005105" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="RZ3O-K"/>
 <row solarSystemID="30005106" allianceID="1411711376" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="LW-YEW"/>
 <row solarSystemID="30005107" allianceID="1411711376" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="HB-KSF"/>
-<row solarSystemID="30005108" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="EH2I-P"/>
+<row solarSystemID="30005108" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="EH2I-P"/>
 <row solarSystemID="30005109" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="OP7-BP"/>
 <row solarSystemID="30005110" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="5ZU-VG"/>
 <row solarSystemID="30005111" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="6-1T6Z"/>
@@ -5996,7 +5998,7 @@
 <row solarSystemID="30005162" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="PT-2KR"/>
 <row solarSystemID="30005163" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="L-POLO"/>
 <row solarSystemID="30005164" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="8B-A4E"/>
-<row solarSystemID="30005165" allianceID="1411711376" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="49V-E4"/>
+<row solarSystemID="30005165" allianceID="1411711376" constellationSovereignty="0" sovereigntyLevel="3" factionID="0" solarSystemName="49V-E4"/>
 <row solarSystemID="30005166" allianceID="1802176600" constellationSovereignty="0" sovereigntyLevel="2" factionID="0" solarSystemName="3LL-O0"/>
 <row solarSystemID="30005167" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="A1F-22"/>
 <row solarSystemID="30005168" allianceID="1411711376" constellationSovereignty="0" sovereigntyLevel="1" factionID="0" solarSystemName="9-ZA4Z"/>
@@ -7932,7 +7934,7 @@
 <row solarSystemID="31002503" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="J114809"/>
 <row solarSystemID="31002504" allianceID="0" constellationSovereignty="0" sovereigntyLevel="0" factionID="0" solarSystemName="J125657"/>
 </rowset>
-<dataTime>2009-10-01 00:22:04</dataTime>
+<dataTime>2009-10-01 15:59:56</dataTime>
 </result>
-<cachedUntil>2009-10-01 08:54:40</cachedUntil>
+<cachedUntil>2009-10-01 22:14:22</cachedUntil>
 </eveapi>
