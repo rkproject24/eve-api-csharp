@@ -1,0 +1,11 @@
+<eveapi version="2">
+<currentTime>2009-10-01 18:30:13</currentTime>
+-
+<result>
+-
+<rowset name="characters" key="characterID" columns="name,characterID">
+<row name="Gehn" characterID="1393008238"/>
+</rowset>
+</result>
+<cachedUntil>2009-11-01 18:30:13</cachedUntil>
+</eveapi>

@@ -1,0 +1,754 @@
+<eveapi version="2">
+<currentTime>2009-10-01 16:24:20</currentTime>
+-
+<result>
+-
+<characters>
+-
+<rowset name="KillsYesterday" key="characterID" columns="characterID,characterName,kills">
+<row characterID="150785711" characterName="Nephilim Xeno" kills="9"/>
+<row characterID="1931115119" characterName="Chlorid 13" kills="9"/>
+<row characterID="146562802" characterName="DARK NIGHT" kills="6"/>
+<row characterID="750134560" characterName="Kovach Lyudozherc" kills="5"/>
+<row characterID="1057508717" characterName="BellisRage" kills="5"/>
+<row characterID="613907629" characterName="absinthed" kills="5"/>
+<row characterID="1219194266" characterName="Akacja" kills="5"/>
+<row characterID="963234333" characterName="Dohl Khrensen" kills="5"/>
+<row characterID="673662188" characterName="Val Erian" kills="5"/>
+<row characterID="973959715" characterName="Admiral Goberius" kills="5"/>
+<row characterID="440360909" characterName="tacher" kills="4"/>
+<row characterID="422015650" characterName="Sparith Jeda" kills="4"/>
+<row characterID="670376643" characterName="Naxias" kills="4"/>
+<row characterID="1220567379" characterName="Zen Guerrilla" kills="4"/>
+<row characterID="1252092291" characterName="Benton Torr" kills="4"/>
+<row characterID="716922540" characterName="034TH" kills="4"/>
+<row characterID="120439931" characterName="Br127" kills="4"/>
+<row characterID="1323311973" characterName="waruiushiro" kills="3"/>
+<row characterID="776677250" characterName="Durante Alighieri" kills="3"/>
+<row characterID="493535299" characterName="Potty" kills="3"/>
+<row characterID="1129816059" characterName="Cyborg Bishop" kills="3"/>
+<row characterID="105696503" characterName="Tytus Pullo" kills="3"/>
+<row characterID="252160961" characterName="knifee" kills="3"/>
+<row characterID="1463057648" characterName="Xian Bling" kills="3"/>
+<row characterID="654014886" characterName="Chuy Fatt" kills="3"/>
+<row characterID="750429767" characterName="Bor'rak" kills="3"/>
+<row characterID="172926694" characterName="Mos Nicolae" kills="3"/>
+<row characterID="337065609" characterName="DutchGunner" kills="3"/>
+<row characterID="149961825" characterName="deltauk1" kills="3"/>
+<row characterID="1568908719" characterName="LP McDuffs" kills="3"/>
+<row characterID="641983941" characterName="Oxcidiax" kills="2"/>
+<row characterID="603505976" characterName="Toyvo Glumov" kills="2"/>
+<row characterID="919691298" characterName="FouRex" kills="2"/>
+<row characterID="484174703" characterName="Mr Abstoss" kills="2"/>
+<row characterID="1644363628" characterName="B'hind Yu" kills="2"/>
+<row characterID="1202645936" characterName="Spider Silva" kills="2"/>
+<row characterID="1803430914" characterName="Avrila Starfire" kills="2"/>
+<row characterID="880314517" characterName="Flick1471" kills="2"/>
+<row characterID="1402513163" characterName="Jur Heii" kills="2"/>
+<row characterID="219606010" characterName="Wreavers" kills="2"/>
+<row characterID="607884643" characterName="LuckyPunch" kills="2"/>
+<row characterID="1867335794" characterName="Scorian Draith" kills="2"/>
+<row characterID="1449122867" characterName="Cmdr Zander" kills="2"/>
+<row characterID="221427891" characterName="harogen" kills="2"/>
+<row characterID="423427576" characterName="Braitai" kills="2"/>
+<row characterID="1828578841" characterName="lilredman" kills="2"/>
+<row characterID="1550297425" characterName="Litaney" kills="2"/>
+<row characterID="465863540" characterName="cougie" kills="2"/>
+<row characterID="1803712561" characterName="Icer Xx" kills="2"/>
+<row characterID="782249737" characterName="Kaylana Gessar" kills="2"/>
+<row characterID="1067660374" characterName="Juan Rayo" kills="2"/>
+<row characterID="1864927849" characterName="Commander Nimrod" kills="2"/>
+<row characterID="349038008" characterName="Vorkonic" kills="2"/>
+<row characterID="347353701" characterName="Dekreig" kills="2"/>
+<row characterID="1044702748" characterName="Azumo" kills="2"/>
+<row characterID="719791174" characterName="Redschak" kills="2"/>
+<row characterID="506625163" characterName="Woddy Woodpacker" kills="2"/>
+<row characterID="1479874641" characterName="Relkha" kills="2"/>
+<row characterID="566761372" characterName="Chronos VIII" kills="2"/>
+<row characterID="164866354" characterName="AardPsymon" kills="2"/>
+<row characterID="395923478" characterName="sasawong" kills="2"/>
+<row characterID="222496932" characterName="Kodos Usurper" kills="2"/>
+<row characterID="1862816974" characterName="Soljour" kills="2"/>
+<row characterID="803513880" characterName="Myrrdoch" kills="2"/>
+<row characterID="1575966850" characterName="CallMa" kills="2"/>
+<row characterID="1040929923" characterName="Hera Darkthorn" kills="2"/>
+<row characterID="1119823132" characterName="KaH Boom" kills="2"/>
+<row characterID="307236978" characterName="Invelious" kills="2"/>
+<row characterID="1886984489" characterName="Cosah" kills="2"/>
+<row characterID="623846134" characterName="Netherby" kills="2"/>
+<row characterID="157761986" characterName="stalking sun" kills="2"/>
+<row characterID="1261452918" characterName="Kurama Urameshi" kills="2"/>
+<row characterID="105603039" characterName="Evienia" kills="2"/>
+<row characterID="1833173930" characterName="pornopelle" kills="2"/>
+<row characterID="757402567" characterName="Edenmain" kills="2"/>
+<row characterID="739817398" characterName="cbIpoK" kills="2"/>
+<row characterID="155656590" characterName="Blaz" kills="2"/>
+<row characterID="702043350" characterName="Damar Rocarion" kills="2"/>
+<row characterID="1483928149" characterName="Silencer NX10" kills="1"/>
+<row characterID="1833153104" characterName="Ultra Power" kills="1"/>
+<row characterID="951770877" characterName="LiuHe Minor" kills="1"/>
+<row characterID="1173806786" characterName="Annah Kitheran" kills="1"/>
+<row characterID="1094181848" characterName="Masavo" kills="1"/>
+<row characterID="1708254842" characterName="LumpySkirt" kills="1"/>
+<row characterID="175474890" characterName="Kamoonga" kills="1"/>
+<row characterID="1786286210" characterName="SnakeEyes 00" kills="1"/>
+<row characterID="1069550014" characterName="Sneaky Noob" kills="1"/>
+<row characterID="539540832" characterName="SAkimori" kills="1"/>
+<row characterID="952743315" characterName="Fred Boecker" kills="1"/>
+<row characterID="454274865" characterName="haross nero" kills="1"/>
+<row characterID="1895946768" characterName="Luthara" kills="1"/>
+<row characterID="841236269" characterName="Arkose X" kills="1"/>
+<row characterID="1454867031" characterName="Shaak'Ti" kills="1"/>
+<row characterID="1737335302" characterName="Gorp" kills="1"/>
+<row characterID="143470280" characterName="MrRommel" kills="1"/>
+<row characterID="506101850" characterName="Tobias Primus" kills="1"/>
+<row characterID="1078013495" characterName="Caidos" kills="1"/>
+<row characterID="715132474" characterName="SilverHawk1" kills="1"/>
+<row characterID="1859211713" characterName="HalfCockedJack" kills="1"/>
+<row characterID="1076468607" characterName="Osiris04" kills="1"/>
+</rowset>
+-
+<rowset name="KillsLastWeek" key="characterID" columns="characterID,characterName,kills">
+<row characterID="552211059" characterName="Too Ducky" kills="83"/>
+<row characterID="1219194266" characterName="Akacja" kills="26"/>
+<row characterID="1888791194" characterName="Khayden" kills="23"/>
+<row characterID="673662188" characterName="Val Erian" kills="22"/>
+<row characterID="164866354" characterName="AardPsymon" kills="20"/>
+<row characterID="877517204" characterName="Kin'Tarr" kills="20"/>
+<row characterID="1615678674" characterName="Bischopt" kills="19"/>
+<row characterID="1359863296" characterName="Esoteric Jellyfish" kills="19"/>
+<row characterID="766743413" characterName="tomlinsonland" kills="18"/>
+<row characterID="1931115119" characterName="Chlorid 13" kills="18"/>
+<row characterID="750134560" characterName="Kovach Lyudozherc" kills="18"/>
+<row characterID="150785711" characterName="Nephilim Xeno" kills="18"/>
+<row characterID="973959715" characterName="Admiral Goberius" kills="18"/>
+<row characterID="440360909" characterName="tacher" kills="18"/>
+<row characterID="1479673707" characterName="mordorz" kills="17"/>
+<row characterID="1208114708" characterName="Aberash" kills="17"/>
+<row characterID="1119823132" characterName="KaH Boom" kills="17"/>
+<row characterID="1142491676" characterName="Julius Foederatus" kills="16"/>
+<row characterID="146562802" characterName="DARK NIGHT" kills="16"/>
+<row characterID="1806178341" characterName="SINDRERO" kills="16"/>
+<row characterID="120439931" characterName="Br127" kills="15"/>
+<row characterID="566761372" characterName="Chronos VIII" kills="15"/>
+<row characterID="245130995" characterName="Naruto Kirishina" kills="15"/>
+<row characterID="389755426" characterName="Joh Lan" kills="14"/>
+<row characterID="607884643" characterName="LuckyPunch" kills="14"/>
+<row characterID="641718535" characterName="Simen123" kills="14"/>
+<row characterID="252160961" characterName="knifee" kills="14"/>
+<row characterID="1864927849" characterName="Commander Nimrod" kills="14"/>
+<row characterID="1200483724" characterName="Christopher Multsanti" kills="13"/>
+<row characterID="963234333" characterName="Dohl Khrensen" kills="13"/>
+<row characterID="484174703" characterName="Mr Abstoss" kills="13"/>
+<row characterID="1867335794" characterName="Scorian Draith" kills="12"/>
+<row characterID="1230873801" characterName="Killer Rasta" kills="12"/>
+<row characterID="716922540" characterName="034TH" kills="12"/>
+<row characterID="1610373561" characterName="James Durmar" kills="12"/>
+<row characterID="1862816974" characterName="Soljour" kills="12"/>
+<row characterID="1032301318" characterName="SuiJuris" kills="12"/>
+<row characterID="139357228" characterName="Onin Ra" kills="12"/>
+<row characterID="702043350" characterName="Damar Rocarion" kills="11"/>
+<row characterID="1833153104" characterName="Ultra Power" kills="11"/>
+<row characterID="868141573" characterName="gunnergonk" kills="11"/>
+<row characterID="1757467165" characterName="Popiejopie" kills="11"/>
+<row characterID="1116545835" characterName="rozikki" kills="11"/>
+<row characterID="1449122867" characterName="Cmdr Zander" kills="11"/>
+<row characterID="422015650" characterName="Sparith Jeda" kills="11"/>
+<row characterID="976646550" characterName="Burntime" kills="10"/>
+<row characterID="613907629" characterName="absinthed" kills="10"/>
+<row characterID="557926865" characterName="Ban Dwagon" kills="10"/>
+<row characterID="424369287" characterName="Omegris" kills="10"/>
+<row characterID="690967141" characterName="Gangleri" kills="10"/>
+<row characterID="105603039" characterName="Evienia" kills="10"/>
+<row characterID="769212335" characterName="Gods Coldblood" kills="10"/>
+<row characterID="1833173930" characterName="pornopelle" kills="9"/>
+<row characterID="1768286070" characterName="Liamn" kills="9"/>
+<row characterID="1031685409" characterName="BillyBulb" kills="9"/>
+<row characterID="842768442" characterName="Mutius" kills="9"/>
+<row characterID="757402567" characterName="Edenmain" kills="9"/>
+<row characterID="1550297425" characterName="Litaney" kills="9"/>
+<row characterID="833248636" characterName="Dulas" kills="9"/>
+<row characterID="1323311973" characterName="waruiushiro" kills="9"/>
+<row characterID="1093004556" characterName="Scarr Face" kills="9"/>
+<row characterID="1514901197" characterName="Qbusus" kills="9"/>
+<row characterID="1193517447" characterName="Raneru" kills="9"/>
+<row characterID="379171017" characterName="Isis Dea" kills="9"/>
+<row characterID="1278563364" characterName="Khal Sebrar" kills="9"/>
+<row characterID="347353701" characterName="Dekreig" kills="9"/>
+<row characterID="242631062" characterName="Garst Tyrell" kills="9"/>
+<row characterID="1803712561" characterName="Icer Xx" kills="9"/>
+<row characterID="1133769753" characterName="Black Fantom" kills="9"/>
+<row characterID="822905472" characterName="TitusBrutusVictor" kills="8"/>
+<row characterID="1415477277" characterName="Voody Voodoo" kills="8"/>
+<row characterID="1294381007" characterName="vickers" kills="8"/>
+<row characterID="1402207580" characterName="DGBadd" kills="8"/>
+<row characterID="1220567379" characterName="Zen Guerrilla" kills="8"/>
+<row characterID="2060118964" characterName="Wa'roun" kills="8"/>
+<row characterID="670376643" characterName="Naxias" kills="8"/>
+<row characterID="678003810" characterName="Wolfgang Achari" kills="8"/>
+<row characterID="1057508717" characterName="BellisRage" kills="8"/>
+<row characterID="671298964" characterName="Anatoly Yakovlevich" kills="8"/>
+<row characterID="1362559383" characterName="Cridil" kills="8"/>
+<row characterID="659354666" characterName="Spaceh" kills="8"/>
+<row characterID="789795683" characterName="Neu Bastian" kills="8"/>
+<row characterID="1182227488" characterName="Mal Serenius" kills="8"/>
+<row characterID="776677250" characterName="Durante Alighieri" kills="8"/>
+<row characterID="1886984489" characterName="Cosah" kills="8"/>
+<row characterID="229658163" characterName="Savros Hunturas" kills="8"/>
+<row characterID="1828578841" characterName="lilredman" kills="7"/>
+<row characterID="910036062" characterName="Moli Sten" kills="7"/>
+<row characterID="197231124" characterName="Urik Kahn" kills="7"/>
+<row characterID="157761986" characterName="stalking sun" kills="7"/>
+<row characterID="938680720" characterName="Caffeine Overdose" kills="7"/>
+<row characterID="395923478" characterName="sasawong" kills="7"/>
+<row characterID="830358222" characterName="Lotty Granat" kills="7"/>
+<row characterID="105696503" characterName="Tytus Pullo" kills="7"/>
+<row characterID="1268174466" characterName="boris thebutcher" kills="7"/>
+<row characterID="765324395" characterName="PMolkenthin" kills="7"/>
+<row characterID="1001855556" characterName="Galliana Foresta" kills="7"/>
+<row characterID="1369303151" characterName="lwater" kills="7"/>
+<row characterID="980919095" characterName="Lunna" kills="7"/>
+<row characterID="222261590" characterName="Yarly" kills="7"/>
+</rowset>
+-
+<rowset name="KillsTotal" key="characterID" columns="characterID,characterName,kills">
+<row characterID="673662188" characterName="Val Erian" kills="1673"/>
+<row characterID="960693087" characterName="Veshta Yoshida" kills="983"/>
+<row characterID="1315092151" characterName="Unfamed II" kills="831"/>
+<row characterID="184571914" characterName="Bad Messenger" kills="803"/>
+<row characterID="868141573" characterName="gunnergonk" kills="758"/>
+<row characterID="1294381007" characterName="vickers" kills="692"/>
+<row characterID="150785711" characterName="Nephilim Xeno" kills="687"/>
+<row characterID="665320754" characterName="Merdaneth" kills="640"/>
+<row characterID="1394672077" characterName="Adolf Ehrnrooth" kills="571"/>
+<row characterID="830358222" characterName="Lotty Granat" kills="557"/>
+<row characterID="395923478" characterName="sasawong" kills="532"/>
+<row characterID="1278563364" characterName="Khal Sebrar" kills="527"/>
+<row characterID="222261590" characterName="Yarly" kills="510"/>
+<row characterID="1757467165" characterName="Popiejopie" kills="508"/>
+<row characterID="455890894" characterName="gingineer" kills="499"/>
+<row characterID="1379947836" characterName="Reggie Kray" kills="434"/>
+<row characterID="1726889731" characterName="Tkotm" kills="430"/>
+<row characterID="607884643" characterName="LuckyPunch" kills="415"/>
+<row characterID="584474789" characterName="Bahamut420" kills="411"/>
+<row characterID="865644626" characterName="Birkinz" kills="398"/>
+<row characterID="407056187" characterName="Laerise" kills="397"/>
+<row characterID="611142197" characterName="Kuentai" kills="366"/>
+<row characterID="702043350" characterName="Damar Rocarion" kills="365"/>
+<row characterID="1571222524" characterName="Zlonamer" kills="364"/>
+<row characterID="1001855556" characterName="Galliana Foresta" kills="356"/>
+<row characterID="1323311973" characterName="waruiushiro" kills="351"/>
+<row characterID="164866354" characterName="AardPsymon" kills="337"/>
+<row characterID="347353701" characterName="Dekreig" kills="318"/>
+<row characterID="906789622" characterName="Terianna Eri" kills="314"/>
+<row characterID="552211059" characterName="Too Ducky" kills="298"/>
+<row characterID="613907629" characterName="absinthed" kills="293"/>
+<row characterID="147628462" characterName="Andraz" kills="288"/>
+<row characterID="424369287" characterName="Omegris" kills="287"/>
+<row characterID="156579713" characterName="Mookuh" kills="274"/>
+<row characterID="105603039" characterName="Evienia" kills="271"/>
+<row characterID="1032301318" characterName="SuiJuris" kills="269"/>
+<row characterID="1209833964" characterName="chatgris" kills="265"/>
+<row characterID="168422606" characterName="Dr Bjerring" kills="264"/>
+<row characterID="1833173930" characterName="pornopelle" kills="262"/>
+<row characterID="690967141" characterName="Gangleri" kills="261"/>
+<row characterID="963234333" characterName="Dohl Khrensen" kills="260"/>
+<row characterID="1959643127" characterName="Amantir Borg" kills="256"/>
+<row characterID="974962469" characterName="Sonar Mhorin" kills="253"/>
+<row characterID="198499672" characterName="BattleStar Crusader" kills="250"/>
+<row characterID="1696486388" characterName="trigger99" kills="246"/>
+<row characterID="1034181529" characterName="DARTHxFREE" kills="242"/>
+<row characterID="197231124" characterName="Urik Kahn" kills="236"/>
+<row characterID="365434045" characterName="olzi" kills="232"/>
+<row characterID="1195989939" characterName="Swatyy" kills="232"/>
+<row characterID="1133769753" characterName="Black Fantom" kills="229"/>
+<row characterID="1369303151" characterName="lwater" kills="225"/>
+<row characterID="1696807400" characterName="Puls4r" kills="224"/>
+<row characterID="288871579" characterName="Tosi" kills="223"/>
+<row characterID="659354666" characterName="Spaceh" kills="222"/>
+<row characterID="1888791194" characterName="Khayden" kills="216"/>
+<row characterID="1856639091" characterName="Aurora Nyx" kills="213"/>
+<row characterID="1562701887" characterName="Hoffnar" kills="213"/>
+<row characterID="1219194266" characterName="Akacja" kills="209"/>
+<row characterID="156771469" characterName="Mra Rednu" kills="207"/>
+<row characterID="1726197730" characterName="M1caiah" kills="205"/>
+<row characterID="1479673707" characterName="mordorz" kills="205"/>
+<row characterID="1119823132" characterName="KaH Boom" kills="200"/>
+<row characterID="1073538562" characterName="yosamitesam" kills="200"/>
+<row characterID="854780324" characterName="Lexang" kills="198"/>
+<row characterID="155656590" characterName="Blaz" kills="195"/>
+<row characterID="614864236" characterName="Enzo Ildari" kills="194"/>
+<row characterID="914638770" characterName="iudex" kills="190"/>
+<row characterID="923339095" characterName="Rail Gun" kills="188"/>
+<row characterID="1140274210" characterName="mikoloco" kills="186"/>
+<row characterID="776677250" characterName="Durante Alighieri" kills="186"/>
+<row characterID="919691298" characterName="FouRex" kills="182"/>
+<row characterID="1864927849" characterName="Commander Nimrod" kills="178"/>
+<row characterID="242631062" characterName="Garst Tyrell" kills="177"/>
+<row characterID="600126062" characterName="Warmal Thunker" kills="175"/>
+<row characterID="1798954102" characterName="Lugalzagezi666" kills="173"/>
+<row characterID="559027120" characterName="praznimrak" kills="171"/>
+<row characterID="1737335302" characterName="Gorp" kills="168"/>
+<row characterID="1139346539" characterName="Zevigas" kills="168"/>
+<row characterID="212804507" characterName="Bashiri" kills="167"/>
+<row characterID="1689221070" characterName="Arto Nupponen" kills="167"/>
+<row characterID="389755426" characterName="Joh Lan" kills="167"/>
+<row characterID="857069922" characterName="Kuan Yida" kills="166"/>
+<row characterID="1862996889" characterName="Jaster Arcturus" kills="162"/>
+<row characterID="149185157" characterName="A'rdan Vulpayne" kills="162"/>
+<row characterID="287442862" characterName="Gallactica" kills="162"/>
+<row characterID="1615678674" characterName="Bischopt" kills="161"/>
+<row characterID="105696503" characterName="Tytus Pullo" kills="153"/>
+<row characterID="1166662404" characterName="Seraphine Keratuus" kills="153"/>
+<row characterID="384900635" characterName="Haas Tabris" kills="153"/>
+<row characterID="543460480" characterName="Erlend TessierAshpool" kills="152"/>
+<row characterID="1833153104" characterName="Ultra Power" kills="150"/>
+<row characterID="163918877" characterName="Evill McDeath" kills="150"/>
+<row characterID="877517204" characterName="Kin'Tarr" kills="149"/>
+<row characterID="1750123354" characterName="Reverand Phoenix" kills="149"/>
+<row characterID="1552957110" characterName="Celess Victoria" kills="148"/>
+<row characterID="1945847264" characterName="SturmLumlane" kills="146"/>
+<row characterID="750134560" characterName="Kovach Lyudozherc" kills="145"/>
+<row characterID="231411158" characterName="Punainen Lintu" kills="144"/>
+<row characterID="789795683" characterName="Neu Bastian" kills="143"/>
+<row characterID="731952292" characterName="Mitara Newelle" kills="142"/>
+</rowset>
+-
+<rowset name="VictoryPointsYesterday" key="characterID" columns="characterID,characterName,victoryPoints">
+<row characterID="1465941105" characterName="Tri Vetra" victoryPoints="2860"/>
+<row characterID="189086954" characterName="Koronakesh" victoryPoints="2700"/>
+<row characterID="1810868208" characterName="Maik Zierra" victoryPoints="2293"/>
+<row characterID="1606416867" characterName="Nihil Magnus" victoryPoints="1996"/>
+<row characterID="1026766167" characterName="Wallinstar" victoryPoints="1712"/>
+<row characterID="395923478" characterName="sasawong" victoryPoints="1696"/>
+<row characterID="865813297" characterName="Piedust" victoryPoints="1350"/>
+<row characterID="702043350" characterName="Damar Rocarion" victoryPoints="1320"/>
+<row characterID="1643479776" characterName="Greg6" victoryPoints="1300"/>
+<row characterID="647758085" characterName="Ilona Isovero" victoryPoints="1267"/>
+<row characterID="1202645936" characterName="Spider Silva" victoryPoints="1267"/>
+<row characterID="750436304" characterName="Ninevrise Syrilla" victoryPoints="1244"/>
+<row characterID="673662188" characterName="Val Erian" victoryPoints="1103"/>
+<row characterID="1076468607" characterName="Osiris04" victoryPoints="1079"/>
+<row characterID="436792213" characterName="Sin Meng" victoryPoints="1066"/>
+<row characterID="394123792" characterName="Indra Nithil" victoryPoints="1026"/>
+<row characterID="731952292" characterName="Mitara Newelle" victoryPoints="1019"/>
+<row characterID="649906571" characterName="Vampy Vampress" victoryPoints="880"/>
+<row characterID="1203008931" characterName="Randy Leahy" victoryPoints="825"/>
+<row characterID="1386146895" characterName="Julianus Soter" victoryPoints="809"/>
+<row characterID="1747434532" characterName="Zan Fee" victoryPoints="770"/>
+<row characterID="1750123354" characterName="Reverand Phoenix" victoryPoints="768"/>
+<row characterID="1069550014" characterName="Sneaky Noob" victoryPoints="768"/>
+<row characterID="692637184" characterName="Nicky Madigan" victoryPoints="741"/>
+<row characterID="783053530" characterName="dappaj" victoryPoints="723"/>
+<row characterID="1608856988" characterName="Mithrendia" victoryPoints="700"/>
+<row characterID="1167205881" characterName="Chan Omari" victoryPoints="668"/>
+<row characterID="148384619" characterName="Hussain" victoryPoints="654"/>
+<row characterID="609650745" characterName="Admiral Gohan" victoryPoints="632"/>
+<row characterID="571144900" characterName="Exile Zero" victoryPoints="630"/>
+<row characterID="329192202" characterName="mistridr" victoryPoints="614"/>
+<row characterID="1051076050" characterName="Ya Nor" victoryPoints="600"/>
+<row characterID="648417109" characterName="Jhaelee de'Auvrie" victoryPoints="597"/>
+<row characterID="1819152649" characterName="Humble Epidemic" victoryPoints="595"/>
+<row characterID="726806072" characterName="NightroseWolf" victoryPoints="587"/>
+<row characterID="468396308" characterName="Allison A'vani" victoryPoints="587"/>
+<row characterID="638056774" characterName="Dough Boy198" victoryPoints="584"/>
+<row characterID="1828503853" characterName="Raphael Saint" victoryPoints="583"/>
+<row characterID="768582425" characterName="Aldrith Shutaq" victoryPoints="568"/>
+<row characterID="437559458" characterName="Minh Aldara" victoryPoints="550"/>
+<row characterID="275530737" characterName="Kim Nirs" victoryPoints="546"/>
+<row characterID="979742591" characterName="Jonny Damordred" victoryPoints="538"/>
+<row characterID="890725474" characterName="Aelaex Karthik" victoryPoints="488"/>
+<row characterID="1890879653" characterName="ShahFluffers" victoryPoints="468"/>
+<row characterID="2042234133" characterName="flamingnova" victoryPoints="449"/>
+<row characterID="1588192767" characterName="Vrax Brota" victoryPoints="449"/>
+<row characterID="1463057648" characterName="Xian Bling" victoryPoints="440"/>
+<row characterID="489461839" characterName="Per Cepano" victoryPoints="440"/>
+<row characterID="167915143" characterName="PariahX" victoryPoints="438"/>
+<row characterID="1972349351" characterName="Myles Landflyer" victoryPoints="437"/>
+<row characterID="1616837850" characterName="Badd Lucy" victoryPoints="405"/>
+<row characterID="1092667207" characterName="Lexar Mundi" victoryPoints="400"/>
+<row characterID="1946325952" characterName="Letum Latro" victoryPoints="399"/>
+<row characterID="1400214138" characterName="Al Wasat" victoryPoints="366"/>
+<row characterID="1321225188" characterName="Captain dkinder" victoryPoints="364"/>
+<row characterID="497842058" characterName="Jianni Sotaku" victoryPoints="355"/>
+<row characterID="989272124" characterName="Ekeim" victoryPoints="351"/>
+<row characterID="337065609" characterName="DutchGunner" victoryPoints="349"/>
+<row characterID="365434045" characterName="olzi" victoryPoints="330"/>
+<row characterID="1899871282" characterName="Sekapallohardelli" victoryPoints="330"/>
+<row characterID="105603039" characterName="Evienia" victoryPoints="330"/>
+<row characterID="796875738" characterName="Halunoto Vankaalen" victoryPoints="330"/>
+<row characterID="1154917691" characterName="YT Boy" victoryPoints="330"/>
+<row characterID="1848070037" characterName="Rain Wolf" victoryPoints="330"/>
+<row characterID="1518820329" characterName="Zippoface" victoryPoints="330"/>
+<row characterID="1012565279" characterName="Intazo" victoryPoints="300"/>
+<row characterID="1614570939" characterName="Urad Gula" victoryPoints="300"/>
+<row characterID="1702313352" characterName="Banshi Remaru" victoryPoints="300"/>
+<row characterID="689149752" characterName="Lord Meriak" victoryPoints="300"/>
+<row characterID="1684764231" characterName="Captain Tan" victoryPoints="286"/>
+<row characterID="1391084173" characterName="Oris Harkonen" victoryPoints="282"/>
+<row characterID="1575966850" characterName="CallMa" victoryPoints="281"/>
+<row characterID="603505976" characterName="Toyvo Glumov" victoryPoints="276"/>
+<row characterID="1012655731" characterName="Gumabunta" victoryPoints="272"/>
+<row characterID="1860883225" characterName="Poa Loahl" victoryPoints="270"/>
+<row characterID="813119785" characterName="Maddog2048" victoryPoints="269"/>
+<row characterID="396030931" characterName="Vladimir Ramius" victoryPoints="260"/>
+<row characterID="427395519" characterName="Rilia Winter" victoryPoints="246"/>
+<row characterID="1067660374" characterName="Juan Rayo" victoryPoints="228"/>
+<row characterID="1819221461" characterName="Dead Rabbitz" victoryPoints="228"/>
+<row characterID="144402792" characterName="Amatius" victoryPoints="220"/>
+<row characterID="414801976" characterName="Cassandra Masami" victoryPoints="220"/>
+<row characterID="366651272" characterName="Izanami Rei" victoryPoints="220"/>
+<row characterID="383731687" characterName="el Sabor" victoryPoints="220"/>
+<row characterID="422020014" characterName="Cicevo" victoryPoints="200"/>
+<row characterID="272106682" characterName="Angaromer" victoryPoints="200"/>
+<row characterID="910567414" characterName="Lost InCogneto" victoryPoints="200"/>
+<row characterID="1031685409" characterName="BillyBulb" victoryPoints="200"/>
+<row characterID="1454867031" characterName="Shaak'Ti" victoryPoints="200"/>
+<row characterID="788475975" characterName="Nosferatou" victoryPoints="200"/>
+<row characterID="836763417" characterName="Amon Tor" victoryPoints="200"/>
+<row characterID="1533750172" characterName="Thorrek Hattir" victoryPoints="200"/>
+<row characterID="109909031" characterName="Idukosan Hito" victoryPoints="200"/>
+<row characterID="105696503" characterName="Tytus Pullo" victoryPoints="200"/>
+<row characterID="1803712561" characterName="Icer Xx" victoryPoints="200"/>
+<row characterID="492596371" characterName="Rob Stark" victoryPoints="200"/>
+<row characterID="253284612" characterName="Mano Khan" victoryPoints="200"/>
+<row characterID="171773784" characterName="Lauren DeVinnie" victoryPoints="200"/>
+<row characterID="2029010629" characterName="Djan Shilde" victoryPoints="200"/>
+<row characterID="963070062" characterName="Conwen" victoryPoints="200"/>
+</rowset>
+-
+<rowset name="VictoryPointsLastWeek" key="characterID" columns="characterID,characterName,victoryPoints">
+<row characterID="1810868208" characterName="Maik Zierra" victoryPoints="12435"/>
+<row characterID="673662188" characterName="Val Erian" victoryPoints="8830"/>
+<row characterID="1606416867" characterName="Nihil Magnus" victoryPoints="8281"/>
+<row characterID="395923478" characterName="sasawong" victoryPoints="7857"/>
+<row characterID="702043350" characterName="Damar Rocarion" victoryPoints="6019"/>
+<row characterID="148384619" characterName="Hussain" victoryPoints="5596"/>
+<row characterID="394123792" characterName="Indra Nithil" victoryPoints="5323"/>
+<row characterID="605902814" characterName="ing SpeedyJ" victoryPoints="4702"/>
+<row characterID="948786266" characterName="Gabriel Darkefyre" victoryPoints="4456"/>
+<row characterID="648417109" characterName="Jhaelee de'Auvrie" victoryPoints="4329"/>
+<row characterID="910567414" characterName="Lost InCogneto" victoryPoints="4260"/>
+<row characterID="1685882459" characterName="Slogo" victoryPoints="4077"/>
+<row characterID="1203008931" characterName="Randy Leahy" victoryPoints="4052"/>
+<row characterID="189086954" characterName="Koronakesh" victoryPoints="4000"/>
+<row characterID="1076468607" characterName="Osiris04" victoryPoints="3662"/>
+<row characterID="1643479776" characterName="Greg6" victoryPoints="3655"/>
+<row characterID="1568743855" characterName="Gamma Goblins" victoryPoints="3431"/>
+<row characterID="750756938" characterName="Blaze Doran" victoryPoints="3410"/>
+<row characterID="750436304" characterName="Ninevrise Syrilla" victoryPoints="3205"/>
+<row characterID="575471078" characterName="Captian Midnight" victoryPoints="3116"/>
+<row characterID="582761720" characterName="Pahani Julmu" victoryPoints="3046"/>
+<row characterID="731952292" characterName="Mitara Newelle" victoryPoints="3046"/>
+<row characterID="649906571" characterName="Vampy Vampress" victoryPoints="2970"/>
+<row characterID="1026766167" characterName="Wallinstar" victoryPoints="2926"/>
+<row characterID="1465941105" characterName="Tri Vetra" victoryPoints="2860"/>
+<row characterID="414801976" characterName="Cassandra Masami" victoryPoints="2640"/>
+<row characterID="1750123354" characterName="Reverand Phoenix" victoryPoints="2568"/>
+<row characterID="1069550014" characterName="Sneaky Noob" victoryPoints="2468"/>
+<row characterID="1386146895" characterName="Julianus Soter" victoryPoints="2455"/>
+<row characterID="865813297" characterName="Piedust" victoryPoints="2383"/>
+<row characterID="270465560" characterName="Omiot Pavus" victoryPoints="2344"/>
+<row characterID="1142491676" characterName="Julius Foederatus" victoryPoints="2332"/>
+<row characterID="422015650" characterName="Sparith Jeda" victoryPoints="2146"/>
+<row characterID="1170704658" characterName="Valerie Ganor" victoryPoints="2111"/>
+<row characterID="129118515" characterName="S810 Jr" victoryPoints="2074"/>
+<row characterID="263147523" characterName="davet517" victoryPoints="2008"/>
+<row characterID="1202645936" characterName="Spider Silva" victoryPoints="1998"/>
+<row characterID="1828503853" characterName="Raphael Saint" victoryPoints="1983"/>
+<row characterID="1162303941" characterName="Argento Wolf" victoryPoints="1980"/>
+<row characterID="1167205881" characterName="Chan Omari" victoryPoints="1978"/>
+<row characterID="647758085" characterName="Ilona Isovero" victoryPoints="1931"/>
+<row characterID="657863421" characterName="Stale Mary" victoryPoints="1832"/>
+<row characterID="1346973489" characterName="Ti'jitsu" victoryPoints="1744"/>
+<row characterID="1621247441" characterName="Borakh Tieberius" victoryPoints="1700"/>
+<row characterID="436792213" characterName="Sin Meng" victoryPoints="1688"/>
+<row characterID="171123721" characterName="osimandius" victoryPoints="1683"/>
+<row characterID="1518820329" characterName="Zippoface" victoryPoints="1674"/>
+<row characterID="1648227271" characterName="Jemo Maren" victoryPoints="1553"/>
+<row characterID="624594964" characterName="Vance Avalon" victoryPoints="1551"/>
+<row characterID="275530737" characterName="Kim Nirs" victoryPoints="1491"/>
+<row characterID="689149752" characterName="Lord Meriak" victoryPoints="1410"/>
+<row characterID="571144900" characterName="Exile Zero" victoryPoints="1409"/>
+<row characterID="648708020" characterName="Rashmika Clavain" victoryPoints="1398"/>
+<row characterID="1931115119" characterName="Chlorid 13" victoryPoints="1386"/>
+<row characterID="1278610304" characterName="Calhdazar Zorm" victoryPoints="1356"/>
+<row characterID="358500821" characterName="JoseManuel Barroso" victoryPoints="1353"/>
+<row characterID="564458279" characterName="Kai Mercat" victoryPoints="1321"/>
+<row characterID="692637184" characterName="Nicky Madigan" victoryPoints="1262"/>
+<row characterID="1854411150" characterName="Bhramin" victoryPoints="1220"/>
+<row characterID="1031685409" characterName="BillyBulb" victoryPoints="1213"/>
+<row characterID="1747434532" characterName="Zan Fee" victoryPoints="1210"/>
+<row characterID="307236978" characterName="Invelious" victoryPoints="1200"/>
+<row characterID="427395519" characterName="Rilia Winter" victoryPoints="1191"/>
+<row characterID="1809011971" characterName="Chronoxi" victoryPoints="1159"/>
+<row characterID="1802446571" characterName="Binary Brute" victoryPoints="1153"/>
+<row characterID="1899871282" characterName="Sekapallohardelli" victoryPoints="1100"/>
+<row characterID="422020014" characterName="Cicevo" victoryPoints="1100"/>
+<row characterID="2029010629" characterName="Djan Shilde" victoryPoints="1100"/>
+<row characterID="1367034466" characterName="Sonea Jerus" victoryPoints="1084"/>
+<row characterID="988697520" characterName="Sepherus" victoryPoints="1084"/>
+<row characterID="1452074583" characterName="Shalee Lianne" victoryPoints="1082"/>
+<row characterID="1854759702" characterName="Morka'Dor" victoryPoints="1069"/>
+<row characterID="1616837850" characterName="Badd Lucy" victoryPoints="1061"/>
+<row characterID="979742591" characterName="Jonny Damordred" victoryPoints="1061"/>
+<row characterID="531226410" characterName="Gallindra" victoryPoints="1056"/>
+<row characterID="1696486388" characterName="trigger99" victoryPoints="1049"/>
+<row characterID="1548904438" characterName="Meeogi" victoryPoints="1045"/>
+<row characterID="1067660374" characterName="Juan Rayo" victoryPoints="1019"/>
+<row characterID="1608761387" characterName="Imperial Shimazu" victoryPoints="1014"/>
+<row characterID="624045958" characterName="Commander Alion" victoryPoints="1000"/>
+<row characterID="477142222" characterName="Priate Accia" victoryPoints="990"/>
+<row characterID="426389618" characterName="Turbular Knight" victoryPoints="978"/>
+<row characterID="150312320" characterName="Machiavelli's Nemesis" victoryPoints="959"/>
+<row characterID="1664543696" characterName="Drackarn" victoryPoints="949"/>
+<row characterID="2056236062" characterName="Mal Neutrino" victoryPoints="947"/>
+<row characterID="1554802621" characterName="Gin Doom" victoryPoints="936"/>
+<row characterID="337065609" characterName="DutchGunner" victoryPoints="936"/>
+<row characterID="117864186" characterName="Condor Amarr" victoryPoints="930"/>
+<row characterID="1768286070" characterName="Liamn" victoryPoints="922"/>
+<row characterID="383731687" characterName="el Sabor" victoryPoints="920"/>
+<row characterID="415921581" characterName="Dominus Ichnopa" victoryPoints="917"/>
+<row characterID="768582425" characterName="Aldrith Shutaq" victoryPoints="903"/>
+<row characterID="168359854" characterName="ExNihilo" victoryPoints="900"/>
+<row characterID="1860883225" characterName="Poa Loahl" victoryPoints="898"/>
+<row characterID="2060118964" characterName="Wa'roun" victoryPoints="893"/>
+<row characterID="960693087" characterName="Veshta Yoshida" victoryPoints="890"/>
+<row characterID="1803712561" characterName="Icer Xx" victoryPoints="887"/>
+<row characterID="762060583" characterName="Cyberin" victoryPoints="884"/>
+<row characterID="914499228" characterName="Lugal Sharr" victoryPoints="880"/>
+<row characterID="844461093" characterName="Sappho Ajhannis" victoryPoints="875"/>
+</rowset>
+-
+<rowset name="VictoryPointsTotal" key="characterID" columns="characterID,characterName,victoryPoints">
+<row characterID="395923478" characterName="sasawong" victoryPoints="534167"/>
+<row characterID="960693087" characterName="Veshta Yoshida" victoryPoints="314818"/>
+<row characterID="184571914" characterName="Bad Messenger" victoryPoints="247581"/>
+<row characterID="673662188" characterName="Val Erian" victoryPoints="243706"/>
+<row characterID="702043350" characterName="Damar Rocarion" victoryPoints="223924"/>
+<row characterID="584483444" characterName="Ni Nee" victoryPoints="203052"/>
+<row characterID="150785711" characterName="Nephilim Xeno" victoryPoints="167720"/>
+<row characterID="161929388" characterName="Ankhesentapemkah" victoryPoints="143929"/>
+<row characterID="910567414" characterName="Lost InCogneto" victoryPoints="141976"/>
+<row characterID="690967141" characterName="Gangleri" victoryPoints="122526"/>
+<row characterID="1315092151" characterName="Unfamed II" victoryPoints="122296"/>
+<row characterID="394123792" characterName="Indra Nithil" victoryPoints="114471"/>
+<row characterID="506101850" characterName="Tobias Primus" victoryPoints="88849"/>
+<row characterID="2051766888" characterName="Lebaneur" victoryPoints="79951"/>
+<row characterID="2086271106" characterName="Zenton Karvash" victoryPoints="79795"/>
+<row characterID="1394672077" characterName="Adolf Ehrnrooth" victoryPoints="78566"/>
+<row characterID="1614570939" characterName="Urad Gula" victoryPoints="77641"/>
+<row characterID="731952292" characterName="Mitara Newelle" victoryPoints="74231"/>
+<row characterID="234053699" characterName="Angry Fist" victoryPoints="72332"/>
+<row characterID="148384619" characterName="Hussain" victoryPoints="71399"/>
+<row characterID="365434045" characterName="olzi" victoryPoints="68859"/>
+<row characterID="1810868208" characterName="Maik Zierra" victoryPoints="67765"/>
+<row characterID="1166662404" characterName="Seraphine Keratuus" victoryPoints="67121"/>
+<row characterID="1621247441" characterName="Borakh Tieberius" victoryPoints="66118"/>
+<row characterID="445881296" characterName="Hrustsov" victoryPoints="62712"/>
+<row characterID="1278563364" characterName="Khal Sebrar" victoryPoints="61878"/>
+<row characterID="1854759702" characterName="Morka'Dor" victoryPoints="61679"/>
+<row characterID="572582797" characterName="Gabriel Theodoulos" victoryPoints="60998"/>
+<row characterID="105603039" characterName="Evienia" victoryPoints="59259"/>
+<row characterID="1572035862" characterName="Nadezjda Allilujeva" victoryPoints="59202"/>
+<row characterID="574390367" characterName="X Gallentius" victoryPoints="58677"/>
+<row characterID="489461839" characterName="Per Cepano" victoryPoints="58150"/>
+<row characterID="443158133" characterName="Pol Macsliebh" victoryPoints="57119"/>
+<row characterID="117864186" characterName="Condor Amarr" victoryPoints="55471"/>
+<row characterID="149185157" characterName="A'rdan Vulpayne" victoryPoints="54647"/>
+<row characterID="1899871282" characterName="Sekapallohardelli" victoryPoints="54545"/>
+<row characterID="407056187" characterName="Laerise" victoryPoints="53663"/>
+<row characterID="1750123354" characterName="Reverand Phoenix" victoryPoints="53248"/>
+<row characterID="689149752" characterName="Lord Meriak" victoryPoints="52307"/>
+<row characterID="750756938" characterName="Blaze Doran" victoryPoints="52239"/>
+<row characterID="189086954" characterName="Koronakesh" victoryPoints="51483"/>
+<row characterID="1768286070" characterName="Liamn" victoryPoints="50858"/>
+<row characterID="1386146895" characterName="Julianus Soter" victoryPoints="50394"/>
+<row characterID="1643479776" characterName="Greg6" victoryPoints="48367"/>
+<row characterID="1747434532" characterName="Zan Fee" victoryPoints="47788"/>
+<row characterID="1696486388" characterName="trigger99" victoryPoints="47206"/>
+<row characterID="1463057648" characterName="Xian Bling" victoryPoints="42981"/>
+<row characterID="919691298" characterName="FouRex" victoryPoints="42844"/>
+<row characterID="443295087" characterName="Alysianna Starbow" victoryPoints="41910"/>
+<row characterID="931773082" characterName="Jusforkix" victoryPoints="41486"/>
+<row characterID="1067660374" characterName="Juan Rayo" victoryPoints="41389"/>
+<row characterID="1026766167" characterName="Wallinstar" victoryPoints="40848"/>
+<row characterID="1336496048" characterName="Mark Yaqb" victoryPoints="39540"/>
+<row characterID="329192202" characterName="mistridr" victoryPoints="38714"/>
+<row characterID="755480315" characterName="Loryanna" victoryPoints="38553"/>
+<row characterID="1748579819" characterName="DollarKlaus" victoryPoints="38122"/>
+<row characterID="1606416867" characterName="Nihil Magnus" victoryPoints="36470"/>
+<row characterID="1608761387" characterName="Imperial Shimazu" victoryPoints="35281"/>
+<row characterID="1658444646" characterName="Isiaratha" victoryPoints="35233"/>
+<row characterID="203337435" characterName="Pim Panero" victoryPoints="34864"/>
+<row characterID="1333288092" characterName="Curtiss Hawk" victoryPoints="34424"/>
+<row characterID="307236978" characterName="Invelious" victoryPoints="34185"/>
+<row characterID="156771469" characterName="Mra Rednu" victoryPoints="33973"/>
+<row characterID="1076468607" characterName="Osiris04" victoryPoints="33813"/>
+<row characterID="1480173412" characterName="Jade Blackwind" victoryPoints="33697"/>
+<row characterID="1525551148" characterName="Feral Lady" victoryPoints="33361"/>
+<row characterID="1554802621" characterName="Gin Doom" victoryPoints="33224"/>
+<row characterID="288871579" characterName="Tosi" victoryPoints="32977"/>
+<row characterID="813119785" characterName="Maddog2048" victoryPoints="32487"/>
+<row characterID="218633686" characterName="Lancress" victoryPoints="32012"/>
+<row characterID="789795683" characterName="Neu Bastian" victoryPoints="30870"/>
+<row characterID="865190747" characterName="Aleton" victoryPoints="30840"/>
+<row characterID="145164523" characterName="Vorkosigan" victoryPoints="30707"/>
+<row characterID="105696503" characterName="Tytus Pullo" victoryPoints="29742"/>
+<row characterID="1833153104" characterName="Ultra Power" victoryPoints="28565"/>
+<row characterID="316929880" characterName="I I" victoryPoints="28224"/>
+<row characterID="1465941105" characterName="Tri Vetra" victoryPoints="28151"/>
+<row characterID="1222322012" characterName="Leoline" victoryPoints="28053"/>
+<row characterID="1737335302" characterName="Gorp" victoryPoints="27557"/>
+<row characterID="1452074583" characterName="Shalee Lianne" victoryPoints="27358"/>
+<row characterID="1483928149" characterName="Silencer NX10" victoryPoints="26748"/>
+<row characterID="1427098012" characterName="He11sing" victoryPoints="26502"/>
+<row characterID="1725029066" characterName="Aarras Oozar" victoryPoints="26330"/>
+<row characterID="1719861819" characterName="Mene Ya" victoryPoints="26261"/>
+<row characterID="948786266" characterName="Gabriel Darkefyre" victoryPoints="26111"/>
+<row characterID="1528650610" characterName="Ziriko Keplit" victoryPoints="25568"/>
+<row characterID="974962469" characterName="Sonar Mhorin" victoryPoints="24845"/>
+<row characterID="746147108" characterName="Gamuk" victoryPoints="24669"/>
+<row characterID="222261590" characterName="Yarly" victoryPoints="24253"/>
+<row characterID="426389618" characterName="Turbular Knight" victoryPoints="23645"/>
+<row characterID="517440494" characterName="Phione" victoryPoints="23199"/>
+<row characterID="1314610149" characterName="OilSlick Rick" victoryPoints="22941"/>
+<row characterID="1831738204" characterName="Cromwell Savage" victoryPoints="22435"/>
+<row characterID="1854411150" characterName="Bhramin" victoryPoints="22194"/>
+<row characterID="761058721" characterName="Bud Good" victoryPoints="21797"/>
+<row characterID="424369287" characterName="Omegris" victoryPoints="21708"/>
+<row characterID="1852537038" characterName="Hurtado Soneka" victoryPoints="21703"/>
+<row characterID="1858162548" characterName="Horatius Caul" victoryPoints="21562"/>
+<row characterID="1986760242" characterName="aRa XL" victoryPoints="21510"/>
+<row characterID="1629142533" characterName="Neo Gabriel" victoryPoints="21488"/>
+</rowset>
+</characters>
+-
+<corporations>
+-
+<rowset name="KillsYesterday" key="corporationID" columns="corporationID,corporationName,kills">
+<row corporationID="1000179" corporationName="24th Imperial Crusade" kills="17"/>
+<row corporationID="1975749457" corporationName="No.Mercy" kills="16"/>
+<row corporationID="1000180" corporationName="State Protectorate" kills="15"/>
+<row corporationID="1000182" corporationName="Tribal Liberation Force" kills="14"/>
+<row corporationID="881483695" corporationName="More-Cowbell" kills="14"/>
+<row corporationID="1040055713" corporationName="Euphoria Released" kills="14"/>
+<row corporationID="1000181" corporationName="Federal Defence Union" kills="11"/>
+<row corporationID="147799788" corporationName="Space Magic" kills="11"/>
+<row corporationID="1670521003" corporationName="Vectra Source Partnership" kills="9"/>
+<row corporationID="1555754175" corporationName="Deep Space Scavangers" kills="8"/>
+</rowset>
+-
+<rowset name="KillsLastWeek" key="corporationID" columns="corporationID,corporationName,kills">
+<row corporationID="1000182" corporationName="Tribal Liberation Force" kills="152"/>
+<row corporationID="1000179" corporationName="24th Imperial Crusade" kills="117"/>
+<row corporationID="1000180" corporationName="State Protectorate" kills="106"/>
+<row corporationID="1684017655" corporationName="Did I just do that" kills="88"/>
+<row corporationID="1000181" corporationName="Federal Defence Union" kills="80"/>
+<row corporationID="1040055713" corporationName="Euphoria Released" kills="78"/>
+<row corporationID="290391657" corporationName="Absinthe Brothers Consortium" kills="72"/>
+<row corporationID="1126669495" corporationName="Quantum Cats Syndicate" kills="67"/>
+<row corporationID="881483695" corporationName="More-Cowbell" kills="67"/>
+<row corporationID="805828589" corporationName="Ice Fire Warriors" kills="66"/>
+</rowset>
+-
+<rowset name="KillsTotal" key="corporationID" columns="corporationID,corporationName,kills">
+<row corporationID="1000180" corporationName="State Protectorate" kills="11330"/>
+<row corporationID="1000182" corporationName="Tribal Liberation Force" kills="8863"/>
+<row corporationID="1000181" corporationName="Federal Defence Union" kills="6939"/>
+<row corporationID="1000179" corporationName="24th Imperial Crusade" kills="6147"/>
+<row corporationID="207613888" corporationName="Space Perverts and Forum Warriors United" kills="5574"/>
+<row corporationID="144544759" corporationName="PIE Inc." kills="4081"/>
+<row corporationID="329699206" corporationName="Mentally Unstable Enterprises" kills="4043"/>
+<row corporationID="1117330985" corporationName="The Wings of Maak" kills="3136"/>
+<row corporationID="290391657" corporationName="Absinthe Brothers Consortium" kills="3061"/>
+<row corporationID="1670521003" corporationName="Vectra Source Partnership" kills="2239"/>
+</rowset>
+-
+<rowset name="VictoryPointsYesterday" key="corporationID" columns="corporationID,corporationName,victoryPoints">
+<row corporationID="1000180" corporationName="State Protectorate" victoryPoints="6247"/>
+<row corporationID="1000181" corporationName="Federal Defence Union" victoryPoints="3103"/>
+<row corporationID="805828589" corporationName="Ice Fire Warriors" victoryPoints="3007"/>
+<row corporationID="1655416855" corporationName="Deus Imperiosus Acies" victoryPoints="2821"/>
+<row corporationID="1788516673" corporationName="Tribal Core" victoryPoints="2282"/>
+<row corporationID="1126669495" corporationName="Quantum Cats Syndicate" victoryPoints="2133"/>
+<row corporationID="796218979" corporationName="Colonial Marines EVE Division" victoryPoints="1922"/>
+<row corporationID="1420326483" corporationName="The Cadre" victoryPoints="1910"/>
+<row corporationID="144544759" corporationName="PIE Inc." victoryPoints="1711"/>
+<row corporationID="637428501" corporationName="Independent Corp." victoryPoints="1696"/>
+</rowset>
+-
+<rowset name="VictoryPointsLastWeek" key="corporationID" columns="corporationID,corporationName,victoryPoints">
+<row corporationID="1000180" corporationName="State Protectorate" victoryPoints="29397"/>
+<row corporationID="1000181" corporationName="Federal Defence Union" victoryPoints="14759"/>
+<row corporationID="2080903038" corporationName="Shadows Of The Federation" victoryPoints="13055"/>
+<row corporationID="1788516673" corporationName="Tribal Core" victoryPoints="12180"/>
+<row corporationID="1420326483" corporationName="The Cadre" victoryPoints="10813"/>
+<row corporationID="144544759" corporationName="PIE Inc." victoryPoints="10733"/>
+<row corporationID="1000182" corporationName="Tribal Liberation Force" victoryPoints="10537"/>
+<row corporationID="642378365" corporationName="Azure Horizon Federate Militia" victoryPoints="9048"/>
+<row corporationID="637428501" corporationName="Independent Corp." victoryPoints="7857"/>
+<row corporationID="1655416855" corporationName="Deus Imperiosus Acies" victoryPoints="7241"/>
+</rowset>
+-
+<rowset name="VictoryPointsTotal" key="corporationID" columns="corporationID,corporationName,victoryPoints">
+<row corporationID="1000180" corporationName="State Protectorate" victoryPoints="1275241"/>
+<row corporationID="1000181" corporationName="Federal Defence Union" victoryPoints="1230089"/>
+<row corporationID="1000182" corporationName="Tribal Liberation Force" victoryPoints="1189518"/>
+<row corporationID="144544759" corporationName="PIE Inc." victoryPoints="1060098"/>
+<row corporationID="1000179" corporationName="24th Imperial Crusade" victoryPoints="851254"/>
+<row corporationID="637428501" corporationName="Independent Corp." victoryPoints="534167"/>
+<row corporationID="1788516673" corporationName="Tribal Core" victoryPoints="517094"/>
+<row corporationID="207613888" corporationName="Space Perverts and Forum Warriors United" victoryPoints="501227"/>
+<row corporationID="1420326483" corporationName="The Cadre" victoryPoints="455894"/>
+<row corporationID="1354346821" corporationName="Emperor Throne Guards" victoryPoints="378289"/>
+</rowset>
+</corporations>
+-
+<factions>
+-
+<rowset name="KillsYesterday" key="factionID" columns="factionID,factionName,kills">
+<row factionID="500003" factionName="Amarr Empire" kills="108"/>
+<row factionID="500002" factionName="Minmatar Republic" kills="102"/>
+<row factionID="500001" factionName="Caldari State" kills="69"/>
+<row factionID="500004" factionName="Gallente Federation" kills="57"/>
+</rowset>
+-
+<rowset name="KillsLastWeek" key="factionID" columns="factionID,factionName,kills">
+<row factionID="500003" factionName="Amarr Empire" kills="859"/>
+<row factionID="500002" factionName="Minmatar Republic" kills="789"/>
+<row factionID="500004" factionName="Gallente Federation" kills="599"/>
+<row factionID="500001" factionName="Caldari State" kills="457"/>
+</rowset>
+-
+<rowset name="KillsTotal" key="factionID" columns="factionID,factionName,kills">
+<row factionID="500004" factionName="Gallente Federation" kills="59024"/>
+<row factionID="500001" factionName="Caldari State" kills="57065"/>
+<row factionID="500002" factionName="Minmatar Republic" kills="53865"/>
+<row factionID="500003" factionName="Amarr Empire" kills="52612"/>
+</rowset>
+-
+<rowset name="VictoryPointsYesterday" key="factionID" columns="factionID,factionName,victoryPoints">
+<row factionID="500001" factionName="Caldari State" victoryPoints="13485"/>
+<row factionID="500002" factionName="Minmatar Republic" victoryPoints="10097"/>
+<row factionID="500004" factionName="Gallente Federation" victoryPoints="9089"/>
+<row factionID="500003" factionName="Amarr Empire" victoryPoints="8800"/>
+</rowset>
+-
+<rowset name="VictoryPointsLastWeek" key="factionID" columns="factionID,factionName,victoryPoints">
+<row factionID="500001" factionName="Caldari State" victoryPoints="62424"/>
+<row factionID="500004" factionName="Gallente Federation" victoryPoints="61441"/>
+<row factionID="500002" factionName="Minmatar Republic" victoryPoints="47268"/>
+<row factionID="500003" factionName="Amarr Empire" victoryPoints="42722"/>
+</rowset>
+-
+<rowset name="VictoryPointsTotal" key="factionID" columns="factionID,factionName,victoryPoints">
+<row factionID="500001" factionName="Caldari State" victoryPoints="4300969"/>
+<row factionID="500004" factionName="Gallente Federation" victoryPoints="3931325"/>
+<row factionID="500003" factionName="Amarr Empire" victoryPoints="3524205"/>
+<row factionID="500002" factionName="Minmatar Republic" victoryPoints="3476200"/>
+</rowset>
+</factions>
+</result>
+<cachedUntil>2009-10-01 17:24:20</cachedUntil>
+</eveapi>
