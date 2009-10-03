@@ -1,0 +1,12 @@
+<eveapi version="2">
+<currentTime>2009-10-03 18:27:15</currentTime>
+-
+<result>
+-
+<rowset name="characters" key="characterID" columns="name,characterID,corporationName,corporationID">
+<row name="Gehn Parks" characterID="995393447" corporationName="RED SUN RISING" corporationID="1405363082"/>
+<row name="MarketViewer1" characterID="1522565014" corporationName="Center for Advanced Studies" corporationID="1000169"/>
+</rowset>
+</result>
+<cachedUntil>2009-10-03 19:27:15</cachedUntil>
+</eveapi>

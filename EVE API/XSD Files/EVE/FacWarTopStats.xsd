@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="rowset">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="row" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="characterID" type="xs:string" />
+            <xs:attribute name="characterName" type="xs:string" />
+            <xs:attribute name="kills" type="xs:string" />
+            <xs:attribute name="victoryPoints" type="xs:string" />
+            <xs:attribute name="corporationID" type="xs:string" />
+            <xs:attribute name="corporationName" type="xs:string" />
+            <xs:attribute name="factionID" type="xs:string" />
+            <xs:attribute name="factionName" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" />
+      <xs:attribute name="key" type="xs:string" />
+      <xs:attribute name="columns" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="eveapi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="currentTime" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+        <xs:element name="cachedUntil" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+        <xs:element name="result" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="characters" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="rowset" minOccurs="0" maxOccurs="unbounded" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="corporations" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="rowset" minOccurs="0" maxOccurs="unbounded" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="factions" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="rowset" minOccurs="0" maxOccurs="unbounded" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="rowset" />
+        <xs:element ref="eveapi" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
