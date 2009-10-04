@@ -41,7 +41,7 @@ namespace Test_GUI
         {
             characterList = EVEAPI.GetAccountCharacters(Convert.ToInt32(txtUserID.Text), txtUserKey.Text);
 
-            foreach (Characters.Character list in characterList.CharacterList)
+            foreach (Character list in characterList.CharacterList)
             {
                 cboCharacterList.Items.Add(list.Name);
             }

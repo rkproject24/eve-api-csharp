@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\Account\Character.cs" />
     <Compile Include="API\Account\Characters.cs" />
     <Compile Include="API\Character\CharAccountBalance.cs" />
     <Compile Include="API\Character\CharAssetList.cs" />
