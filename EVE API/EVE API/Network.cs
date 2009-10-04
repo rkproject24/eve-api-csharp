@@ -65,15 +65,21 @@ namespace EVE_API
                 // Cache must still be used, serve it up!
             }
 
-            if (url.Contains(Constants.ErrorList))
+            if (data.Contains("<error code=") && !url.Contains(Constants.ErrorList))
             {
-                XmlSerializer serializer = new XmlSerializer(typeof(ErrorList));
-                return serializer.Deserialize(new StringReader(data)) as ErrorList;
+                // Returned an error and was not the error list, throw exception with error
+                throw new ApiResponseErrorException(new Error(data));
+            }else if (url.Contains(Constants.ErrorList))
+            {
+                return new ErrorList(data);
             }
             else if (url.Contains(Constants.ServerStatus))
             {
-                XmlSerializer serializer = new XmlSerializer(typeof(ServerStatus));
-                return serializer.Deserialize(new StringReader(data)) as ServerStatus;
+                return new ServerStatus(data);
+            }
+            else if (url.Contains(Constants.CharacterList))
+            {
+                return new Characters(data);
             }
 
             return data;
@@ -120,8 +126,7 @@ namespace EVE_API
             if (data.Contains("<error code=") && !url.Contains(Constants.ErrorList))
             {
                 // Returned an error and was not the error list, throw exception with error
-                XmlSerializer serializer = new XmlSerializer(typeof(Error));
-                throw new ApiResponseErrorException(serializer.Deserialize(new StringReader(data)) as Error);
+                throw new ApiResponseErrorException(new Error(data));
             }
             else
             {

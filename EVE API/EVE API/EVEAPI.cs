@@ -60,7 +60,27 @@ namespace EVE_API
             return (ServerStatus)Network.GetResponse(url);
         }
 
-        /*
+        /// <summary>
+        /// Returns a list of error codes that can be returned by the EVE API servers
+        /// </summary>
+        /// <returns></returns>
+        public static ErrorList GetErrorList()
+        {
+            return GetErrorList(false);
+        }
+
+        /// <summary>
+        /// Returns a list of error codes that can be returned by the EVE API servers
+        /// </summary>
+        /// <param name="ignoreCacheUntil">Ignores the cacheUntil and will return the cache even if expired</param>
+        /// <returns></returns>
+        public static ErrorList GetErrorList(bool ignoreCacheUntil)
+        {
+            string url = String.Format("{0}{1}", Constants.ApiPrefix, Constants.ErrorList);
+
+            return (ErrorList)Network.GetResponse(url);
+        }
+
         /// <summary>
         /// Returns a list of all characters on an account
         /// </summary>
@@ -83,9 +103,10 @@ namespace EVE_API
         {
             string url = String.Format("{0}{1}?userID={2}&apiKey={3}", Constants.ApiPrefix, Constants.CharacterList, userId, apiKey);
 
-            return;
+            return (Characters)Network.GetResponse(url);
         }
         
+        /*
         /// <summary>
         /// Returns the ISK balance of a corporation or character
         /// </summary>
@@ -283,27 +304,6 @@ namespace EVE_API
             Cache.Set(url, starbaseDetail);
 
             return starbaseDetail;
-        }
-        
-        /// <summary>
-        /// Returns a list of error codes that can be returned by the EVE API servers
-        /// </summary>
-        /// <returns></returns>
-        public static ErrorList GetErrorList()
-        {
-            return GetErrorList(false);
-        }
-
-        /// <summary>
-        /// Returns a list of error codes that can be returned by the EVE API servers
-        /// </summary>
-        /// <param name="ignoreCacheUntil">Ignores the cacheUntil and will return the cache even if expired</param>
-        /// <returns></returns>
-        public static ErrorList GetErrorList(bool ignoreCacheUntil)
-        {
-            string url = String.Format("{0}{1}", Constants.ApiPrefix, Constants.ErrorList);
-
-            return Network.GetResponse(url);
         }
         
         /// <summary>
