@@ -13,6 +13,7 @@ namespace Test_GUI
     public partial class Main : Form
     {
         ServerStatus status;
+        Characters characterList;
 
         public Main()
         {
@@ -27,12 +28,24 @@ namespace Test_GUI
         private void btnUpdateServerStatus_Click(object sender, EventArgs e)
         {
             status = EVEAPI.GetServerStatus();
-            if (status.result.serverOpen == "True")
+
+            if (status.serverOpen)
                 lblServerOnline.Text = "Server Online";
             else
                 lblServerOnline.Text = "Server Offline";
 
-            lblServerPlayers.Text = status.result.onlinePlayers + " players";
+            lblServerPlayers.Text = status.onlinePlayers + " players";
+        }
+
+        private void btnCommit_Click(object sender, EventArgs e)
+        {
+            characterList = EVEAPI.GetAccountCharacters(Convert.ToInt32(txtUserID.Text), txtUserKey.Text);
+
+            foreach (Characters.Character list in characterList.CharacterList)
+            {
+                cboCharacterList.Items.Add(list.Name);
+            }
+            cboCharacterList.Enabled = true;
         }
     }
 }

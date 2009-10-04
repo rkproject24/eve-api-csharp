@@ -1,194 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
 namespace EVE_API
 {
-    [XmlRoot("eveapi")]
-    class ErrorList
+    public class ErrorList
     {
-        private string currentTimeField;
+        public DateTime currentTime { get; set; }
+        public DateTime cachedUntil { get; set; }
+        public Error [] theErrorList { get; set; }
 
-        private string cachedUntilField;
-
-        private eveapiResultRowset[][] resultField;
-
-        private string versionField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public string currentTime
+        public ErrorList(string data)
         {
-            get
-            {
-                return this.currentTimeField;
-            }
-            set
-            {
-                this.currentTimeField = value;
-            }
-        }
+            XmlDocument doc = new XmlDocument();
+            doc.LoadXml(data);
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public string cachedUntil
-        {
-            get
-            {
-                return this.cachedUntilField;
-            }
-            set
-            {
-                this.cachedUntilField = value;
-            }
-        }
+            currentTime = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/currentTime").InnerText), DateTimeKind.Utc);
+            cachedUntil = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/cachedUntil").InnerText), DateTimeKind.Utc);
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("rowset", typeof(eveapiResultRowset), Form = System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable = false)]
-        public eveapiResultRowset[][] result
-        {
-            get
+            List<Error> parsedErrors = new List<Error>();
+            foreach (XmlNode row in doc.SelectNodes("//rowset[@name='errors']/row"))
             {
-                return this.resultField;
+                parsedErrors.Add(new Error(Convert.ToInt32(row.Attributes["errorCode"].InnerText), row.Attributes["errorText"].InnerText, currentTime, cachedUntil));
             }
-            set
-            {
-                this.resultField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string version
-        {
-            get
-            {
-                return this.versionField;
-            }
-            set
-            {
-                this.versionField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "2.0.50727.3038")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class eveapiResultRowset
-    {
-
-        private eveapiResultRowsetRow[] rowField;
-
-        private string nameField;
-
-        private string keyField;
-
-        private string columnsField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("row", Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public eveapiResultRowsetRow[] row
-        {
-            get
-            {
-                return this.rowField;
-            }
-            set
-            {
-                this.rowField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string name
-        {
-            get
-            {
-                return this.nameField;
-            }
-            set
-            {
-                this.nameField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string key
-        {
-            get
-            {
-                return this.keyField;
-            }
-            set
-            {
-                this.keyField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string columns
-        {
-            get
-            {
-                return this.columnsField;
-            }
-            set
-            {
-                this.columnsField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "2.0.50727.3038")]
-        [System.SerializableAttribute()]
-        [System.Diagnostics.DebuggerStepThroughAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class eveapiResultRowsetRow
-        {
-
-            private string errorCodeField;
-
-            private string errorTextField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string errorCode
-            {
-                get
-                {
-                    return this.errorCodeField;
-                }
-                set
-                {
-                    this.errorCodeField = value;
-                }
-            }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string errorText
-            {
-                get
-                {
-                    return this.errorTextField;
-                }
-                set
-                {
-                    this.errorTextField = value;
-                }
-            }
+            theErrorList = parsedErrors.ToArray();
         }
     }
 }

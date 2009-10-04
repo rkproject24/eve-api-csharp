@@ -71,6 +71,7 @@
             this.btnCommit.TabIndex = 2;
             this.btnCommit.Text = "Commit";
             this.btnCommit.UseVisualStyleBackColor = true;
+            this.btnCommit.Click += new System.EventHandler(this.btnCommit_Click);
             // 
             // label2
             // 
@@ -118,6 +119,7 @@
             // 
             // cboCharacterList
             // 
+            this.cboCharacterList.Enabled = false;
             this.cboCharacterList.FormattingEnabled = true;
             this.cboCharacterList.Location = new System.Drawing.Point(94, 58);
             this.cboCharacterList.Name = "cboCharacterList";

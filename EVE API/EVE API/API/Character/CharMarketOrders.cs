@@ -5,7 +5,7 @@ using System.Xml.Serialization;
 namespace EVE_API
 {
     [XmlRoot("eveapi")]
-    public class WalletTransactions
+    public class CharMarketOrders
     {
 
     }
