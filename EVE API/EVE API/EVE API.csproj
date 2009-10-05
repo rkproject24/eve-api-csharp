@@ -52,7 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\Account\Character.cs" />
     <Compile Include="API\Account\Characters.cs" />
     <Compile Include="API\Character\CharAccountBalance.cs" />
     <Compile Include="API\Character\CharAssetList.cs" />
@@ -95,6 +94,7 @@
     <Compile Include="API\EVE\Error.cs" />
     <Compile Include="API\EVE\ErrorList.cs" />
     <Compile Include="API\EVE\FacWarTopStats.cs" />
+    <Compile Include="API\EVE\RefType.cs" />
     <Compile Include="API\EVE\RefTypes.cs" />
     <Compile Include="API\EVE\SkillTree.cs" />
     <Compile Include="API\Map\FacWarSystems.cs" />
