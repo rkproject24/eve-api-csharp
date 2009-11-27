@@ -98,7 +98,7 @@ namespace EVE_API
             }
         }
 
-        public class SkillBonus
+        public struct SkillBonus
         {
             public string Name { get; set; }
             public double Bonus { get; set; }

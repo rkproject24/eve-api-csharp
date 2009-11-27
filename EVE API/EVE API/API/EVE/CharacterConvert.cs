@@ -5,13 +5,13 @@ using System.Collections.Generic;
 
 namespace EVE_API
 {
-    public class Characters
+    public class CharacterConvert
     {
+        public Character [] theCharacterList { get; set; }
         public DateTime currentTime { get; set; }
         public DateTime cachedUntil { get; set; }
-        public Character [] CharacterList { get; set; }
 
-        public Characters(string data)
+        public CharacterConvert(string data)
         {
             XmlDocument doc = new XmlDocument();
             doc.LoadXml(data);
@@ -22,14 +22,9 @@ namespace EVE_API
             List<Character> parsedCharacters = new List<Character>();
             foreach (XmlNode row in doc.SelectNodes("//rowset[@name='characters']/row"))
             {
-                Character character = new Character();
-                character.Name = row.Attributes["name"].InnerText;
-                character.CharacterID = Convert.ToInt32(row.Attributes["characterID"].InnerText);
-                character.CorpName = row.Attributes["corporationName"].InnerText;
-                character.CorpID = Convert.ToInt32(row.Attributes["corporationID"].InnerText);
-                parsedCharacters.Add(character);
+                parsedCharacters.Add(new Character(row.Attributes["characters"].InnerText, Convert.ToInt32(row.Attributes["characterID"].InnerText)));
             }
-            CharacterList = parsedCharacters.ToArray();
+            theCharacterList = parsedCharacters.ToArray();
         }
     }
 }
