@@ -7,8 +7,8 @@ namespace EVE_API
 {
     public class Characters
     {
-        public DateTime currentTime { get; set; }
-        public DateTime cachedUntil { get; set; }
+        public DateTime CurrentTime { get; set; }
+        public DateTime CachedUntil { get; set; }
         public Character [] CharacterList { get; set; }
 
         public Characters(string data)
@@ -16,8 +16,8 @@ namespace EVE_API
             XmlDocument doc = new XmlDocument();
             doc.LoadXml(data);
 
-            currentTime = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/currentTime").InnerText), DateTimeKind.Utc);
-            cachedUntil = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/cachedUntil").InnerText), DateTimeKind.Utc);
+            CurrentTime = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/currentTime").InnerText), DateTimeKind.Utc);
+            CachedUntil = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/cachedUntil").InnerText), DateTimeKind.Utc);
 
             List<Character> parsedCharacters = new List<Character>();
             foreach (XmlNode row in doc.SelectNodes("//rowset[@name='characters']/row"))

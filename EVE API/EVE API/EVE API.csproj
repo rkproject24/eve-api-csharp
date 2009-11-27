@@ -102,6 +102,7 @@
     <Compile Include="API\Map\FacWarSystems.cs" />
     <Compile Include="API\Map\Jumps.cs" />
     <Compile Include="API\Map\Kills.cs" />
+    <Compile Include="API\Map\SolarSystem.cs" />
     <Compile Include="API\Map\Sovereignty.cs" />
     <Compile Include="API\ServerStatus.cs" />
     <Compile Include="Constants.cs" />

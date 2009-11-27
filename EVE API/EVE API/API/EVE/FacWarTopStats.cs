@@ -10,21 +10,21 @@ namespace EVE_API
         public Stats[] CorporationStats { get; set; }
         public Stats[] CharacterStats { get; set; }
         public Stats[] FactionStats { get; set; }
-        public DateTime currentTime { get; set; }
-        public DateTime cachedUntil { get; set; }
+        public DateTime CurrentTime { get; set; }
+        public DateTime CachedUntil { get; set; }
 
         public FacWarTopStats(string data)
         {
             XmlDocument doc = new XmlDocument();
             doc.LoadXml(data);
 
-            currentTime = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/currentTime").InnerText), DateTimeKind.Utc);
-            cachedUntil = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/cachedUntil").InnerText), DateTimeKind.Utc);
+            CurrentTime = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/currentTime").InnerText), DateTimeKind.Utc);
+            CachedUntil = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/cachedUntil").InnerText), DateTimeKind.Utc);
 
             List<Stats> parsedStats = new List<Stats>();
             foreach (XmlNode group in doc.SelectNodes("//rowset[@name='skillGroups']/row"))
             {
-                parsedGroups.Add(new SkillGroup(group.Attributes["groupName"].InnerText, Convert.ToInt32(group.Attributes["groupID"].InnerText)));
+                parsedStats.Add(new Stats(group.Attributes["groupName"].InnerText, Convert.ToInt32(group.Attributes["groupID"].InnerText)));
             }
             CorporationStats = parsedStats.ToArray();
         }
