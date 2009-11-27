@@ -6,8 +6,8 @@ namespace EVE_API
 {
     public class Error
     {
-        public DateTime currentTime { get; set; }
-        public DateTime cachedUntil { get; set; }
+        public DateTime CurrentTime { get; set; }
+        public DateTime CachedUntil { get; set; }
         public int Code { get; set; }
         public string CodeDescription { get; set; }
 
@@ -16,8 +16,9 @@ namespace EVE_API
             XmlDocument doc = new XmlDocument();
             doc.LoadXml(data);
 
-            currentTime = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/currentTime").InnerText), DateTimeKind.Utc);
-            cachedUntil = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/cachedUntil").InnerText), DateTimeKind.Utc);
+            CurrentTime = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/currentTime").InnerText), DateTimeKind.Utc);
+            CachedUntil = DateTime.SpecifyKind(DateTime.Parse(doc.SelectSingleNode("/eveapi/cachedUntil").InnerText), DateTimeKind.Utc);
+
             Code = Convert.ToInt32(doc.SelectSingleNode("/eveapi/error[@='code']").Attributes["code"].Value);
             CodeDescription = doc.SelectSingleNode("/eveapi/error").InnerText;
         }
