@@ -53,6 +53,10 @@ namespace EVE_API
             Network.eveNetworkClientSettings.userAgent = "EveApi/1 (" + userAgent + ")";
         }
 
+        /// <summary>
+        /// Returns the server status of Tranquility
+        /// </summary>
+        /// <returns></returns>
         public static ServerStatus GetServerStatus()
         {
             string url = String.Format("{0}{1}", Constants.ApiPrefix, Constants.ServerStatus);

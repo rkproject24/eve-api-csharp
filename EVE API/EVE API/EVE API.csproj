@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\Account\Character.cs" />
     <Compile Include="API\Account\Characters.cs" />
     <Compile Include="API\Character\CharAccountBalance.cs" />
     <Compile Include="API\Character\CharAssetList.cs" />
@@ -86,11 +87,12 @@
     <Compile Include="API\Corporation\Titles.cs" />
     <Compile Include="API\Corporation\CorpWalletJournal.cs" />
     <Compile Include="API\Corporation\CorpWalletTransactions.cs" />
+    <Compile Include="API\EVE\Alliance.cs" />
     <Compile Include="API\EVE\AllianceList.cs" />
     <Compile Include="API\EVE\CertificateTree.cs" />
-    <Compile Include="API\EVE\CharacterID.cs" />
-    <Compile Include="API\EVE\CharacterName.cs" />
+    <Compile Include="API\EVE\CharacterConvert.cs" />
     <Compile Include="API\EVE\ConquerableStationList.cs" />
+    <Compile Include="API\EVE\Corporation.cs" />
     <Compile Include="API\EVE\Error.cs" />
     <Compile Include="API\EVE\ErrorList.cs" />
     <Compile Include="API\EVE\FacWarTopStats.cs" />
