@@ -6,6 +6,8 @@ namespace EVE_API
     {
         public int SolarSystemID { get; set; }
         public string SolarSystemName { get; set; }
+        public int AllianceID { get; set; }
+        public int CorporationID { get; set; }
         public int OccupyingFactionID { get; set; }
         public string OccupyingFactionName { get; set; }
         public bool Contested { get; set; }
