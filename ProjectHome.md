@@ -1,0 +1,1 @@
+This is a library written in C# to be used in writing applications that utilize the EVE Online API.
